@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Advertisements;
 
-
 public class PlayerManager : MonoBehaviour {
 	Vector3 preMousePos;
 	public GameObject player;

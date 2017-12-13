@@ -123,5 +123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a3e312dfc7324aebbacb0b1ffa37e19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eraserSound: {fileID: 0}
+  eraserSound: {fileID: 1473680966449482, guid: 6d34add093a11473984f63c9df4299ee,
+    type: 2}
   effect: {fileID: 1489006680934110, guid: 085fb240508304694be6b8deb37830bd, type: 2}

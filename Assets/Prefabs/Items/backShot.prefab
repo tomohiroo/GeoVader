@@ -123,3 +123,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e04982a8010a411d8f460de2c64fc89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  backShotSound: {fileID: 1473680966449482, guid: 9a2c4af9d47644d6f8324ee1e7275df6,
+    type: 2}
