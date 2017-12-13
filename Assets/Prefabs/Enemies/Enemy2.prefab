@@ -114,5 +114,6 @@ MonoBehaviour:
   - {fileID: 1858685024668856, guid: 3f09f0af901554e00b1b606c41dab31d, type: 2}
   - {fileID: 1545944699896372, guid: 77d9eb6e9c8784445bf922740983075b, type: 2}
   - {fileID: 1545944699896372, guid: 3f01a543128bb40029f631d4804c9a10, type: 2}
+  - {fileID: 1858685024668856, guid: 9c4e782ad08f1408993e360aedd03f75, type: 2}
   effect: {fileID: 1983924050998588, guid: c93201aa0f5dd437eae721c3e2c7c4d9, type: 2}
   effecti: {fileID: 1983924050998588, guid: 69fba67aceeb84866945485c1931d352, type: 2}

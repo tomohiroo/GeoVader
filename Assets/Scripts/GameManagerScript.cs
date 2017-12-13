@@ -11,7 +11,7 @@ public class GameManagerScript : MonoBehaviour
 	public GameObject player;
 	public GameObject[] enemy;
 	public GameObject[] boss;
-	float timer;
+	public float timer;
 	float boolTimer = 0;
 	bool isGenerate;
 	public int score;
@@ -295,6 +295,15 @@ public class GameManagerScript : MonoBehaviour
 				bossTimer += Time.deltaTime / 4;
 			}
 
+			if (timer > 315) {
+				boolTimer += Time.deltaTime / 4;
+				bossTimer += Time.deltaTime / 4;
+			}
+
+			if (timer > 300) {
+				boolTimer += Time.deltaTime / 4;
+				bossTimer += Time.deltaTime / 4;
+			}
 
 			isGenerate = false;
 			scoreText.text = score.ToString();

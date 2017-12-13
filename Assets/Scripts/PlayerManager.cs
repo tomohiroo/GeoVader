@@ -35,10 +35,10 @@ public class PlayerManager : MonoBehaviour {
 	bool isPlaying;
 	float playTimer;
 	public GameObject eraser;
-	float erasertimer=0.3f;
+	float erasertimer=0.4f;
 	int eraserCount;
 	public GameObject backShot;
-	int backCount=1;
+	int backShotCount;
 
 	void Start () {
 		speed = (float)Screen.width / (float)Screen.height * 20.0f;	
@@ -143,7 +143,7 @@ public class PlayerManager : MonoBehaviour {
 				Instantiate (eraser, this.transform.position, Quaternion.identity);
 				yield return new WaitForSeconds (0.25f);
 			}
-			for(int i=0; i < backCount; i++){
+			for(int i=0; i < backShotCount; i++){
 				Instantiate (backShot, this.transform.position, Quaternion.identity);
 				yield return new WaitForSeconds (0.25f);
 			}
@@ -232,14 +232,116 @@ public class PlayerManager : MonoBehaviour {
 			GameObject Is = Instantiate (itemSound) as GameObject;
 			Destroy (Is, 1);
 		}
+
+
 		if (col.gameObject.name == "GetEraser(Clone)") {
-			Destroy (col.gameObject);
-			eraserCount++;
-			gameManagerScript.textTimer = 0;
-			information.text="ERASER";
-			information.color = new Color (0, 0.4f, 0.95f, 1);
-			GameObject Is = Instantiate (itemSound) as GameObject;
-			Destroy (Is, 1);
+			if (gameManagerScript.timer > 150) {
+				Destroy (col.gameObject);
+				gameManagerScript.textTimer = 0;
+				GameObject Is = Instantiate (itemSound) as GameObject;
+				Destroy (Is, 1);
+				eraserCount++;
+				information.text = "ERASER";
+				information.color = new Color (0, 0.4f, 0.95f, 1);
+			} else {
+				int rand = Random.Range (0, 5);
+				if (rand == 0) {
+					Destroy (col.gameObject);
+					laserCount++;
+					gameManagerScript.textTimer = 0;
+					information.text = "LASER";
+					information.color = new Color (0, 0.4f, 0.95f, 1);
+					GameObject Is = Instantiate (itemSound) as GameObject;
+					Destroy (Is, 1);
+				} else if (rand == 1) {
+					Destroy (col.gameObject);
+					twinCount++;
+					gameManagerScript.textTimer = 0;
+					information.text = "TWIN SHOT";
+					information.color = new Color (0, 0.4f, 0.95f, 1);
+					GameObject Is = Instantiate (itemSound) as GameObject;
+					Destroy (Is, 1);
+				} else if (rand == 2) {
+					Destroy (col.gameObject);
+					wideCount++;
+					gameManagerScript.textTimer = 0;
+					information.text = "WIDE SHOT";
+					information.color = new Color (0, 0.4f, 0.95f, 1);
+					GameObject Is = Instantiate (itemSound) as GameObject;
+					Destroy (Is, 1);
+				} else if (rand == 3) {
+					Destroy (col.gameObject);
+					homingCount++;
+					gameManagerScript.textTimer = 0;
+					information.text = "HOMING SHOT";
+					information.color = new Color (0, 0.4f, 0.95f, 1);
+					GameObject Is = Instantiate (itemSound) as GameObject;
+					Destroy (Is, 1);
+				} else if (rand == 4) {
+					Destroy (col.gameObject);
+					homingCount++;
+					gameManagerScript.textTimer = 0;
+					information.text = "HOMING SHOT";
+					information.color = new Color (0, 0.4f, 0.95f, 1);
+					GameObject Is = Instantiate (itemSound) as GameObject;
+					Destroy (Is, 1);
+				}
+			}
+		}
+
+		if (col.gameObject.name == "GetBackShot(Clone)") {
+			if (gameManagerScript.timer > 150) {
+				backShotCount++;
+				information.text = "BACKSHOT";
+				information.color = new Color (0, 0.4f, 0.95f, 1);
+				Destroy (col.gameObject);
+				gameManagerScript.textTimer = 0;
+				GameObject Is = Instantiate (itemSound) as GameObject;
+				Destroy (Is, 1);
+			} else {
+				int rand = Random.Range (0, 5);
+				if (rand == 0) {
+					Destroy (col.gameObject);
+					laserCount++;
+					gameManagerScript.textTimer = 0;
+					information.text = "LASER";
+					information.color = new Color (0, 0.4f, 0.95f, 1);
+					GameObject Is = Instantiate (itemSound) as GameObject;
+					Destroy (Is, 1);
+				} else if (rand == 1) {
+					Destroy (col.gameObject);
+					twinCount++;
+					gameManagerScript.textTimer = 0;
+					information.text = "TWIN SHOT";
+					information.color = new Color (0, 0.4f, 0.95f, 1);
+					GameObject Is = Instantiate (itemSound) as GameObject;
+					Destroy (Is, 1);
+				} else if (rand == 2) {
+					Destroy (col.gameObject);
+					wideCount++;
+					gameManagerScript.textTimer = 0;
+					information.text = "WIDE SHOT";
+					information.color = new Color (0, 0.4f, 0.95f, 1);
+					GameObject Is = Instantiate (itemSound) as GameObject;
+					Destroy (Is, 1);
+				} else if (rand == 3) {
+					Destroy (col.gameObject);
+					homingCount++;
+					gameManagerScript.textTimer = 0;
+					information.text = "HOMING SHOT";
+					information.color = new Color (0, 0.4f, 0.95f, 1);
+					GameObject Is = Instantiate (itemSound) as GameObject;
+					Destroy (Is, 1);
+				} else if (rand == 4) {
+					Destroy (col.gameObject);
+					homingCount++;
+					gameManagerScript.textTimer = 0;
+					information.text = "HOMING SHOT";
+					information.color = new Color (0, 0.4f, 0.95f, 1);
+					GameObject Is = Instantiate (itemSound) as GameObject;
+					Destroy (Is, 1);
+				}
+			}
 		}
 		if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Attack"){
 			if (isPlaying) {
