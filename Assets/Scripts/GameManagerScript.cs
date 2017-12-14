@@ -329,25 +329,33 @@ public class GameManagerScript : MonoBehaviour
 			}
 			if (timer > 280) {
 				boolTimer += Time.deltaTime / 4;
-				bossTimer += Time.deltaTime / 4;
+				bossTimer += Time.deltaTime / 5;
 			}
 			if (timer > 300) {
 				boolTimer += Time.deltaTime / 4;
-				bossTimer += Time.deltaTime / 4;
+				bossTimer += Time.deltaTime / 5;
 			}
 
 			if (timer > 315) {
 				boolTimer += Time.deltaTime / 4;
-				bossTimer += Time.deltaTime / 4;
+				bossTimer += Time.deltaTime / 5;
 			}
 
-			if (timer > 300) {
+			if (timer > 330) {
 				boolTimer += Time.deltaTime / 4;
-				bossTimer += Time.deltaTime / 4;
+				bossTimer += Time.deltaTime / 5;
 			}
-			if (timer > 310) {
+			if (timer > 345) {
 				boolTimer += Time.deltaTime / 4;
-				bossTimer += Time.deltaTime / 4;
+				bossTimer += Time.deltaTime / 5;
+			}
+			if (timer > 360) {
+				boolTimer += Time.deltaTime / 2;
+				bossTimer += Time.deltaTime / 3;
+			}
+			if (timer > 345) {
+				boolTimer += Time.deltaTime * 2;
+				bossTimer += Time.deltaTime;
 			}
 			isGenerate = false;
 			bossiscoming = false;
