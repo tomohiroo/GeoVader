@@ -336,6 +336,7 @@ public class GameManagerScript : MonoBehaviour
 				bossTimer += Time.deltaTime / 5;
 			}
 
+
 			if (timer > 315) {
 				boolTimer += Time.deltaTime / 4;
 				bossTimer += Time.deltaTime / 5;
