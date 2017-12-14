@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Boss3Script : MonoBehaviour {
-	float hp = 80;
+	float hp = 75;
 	float attackTimer;
 	float moveTimer;
 	public GameObject attack;

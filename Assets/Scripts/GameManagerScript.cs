@@ -346,8 +346,8 @@ public class GameManagerScript : MonoBehaviour
 				bossTimer += Time.deltaTime / 4;
 			}
 			if (timer > 310) {
-				boolTimer += Time.deltaTime * 2;
-				bossTimer += Time.deltaTime;
+				boolTimer += Time.deltaTime / 4;
+				bossTimer += Time.deltaTime / 4;
 			}
 			isGenerate = false;
 			bossiscoming = false;
