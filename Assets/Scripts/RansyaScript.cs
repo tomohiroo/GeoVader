@@ -20,7 +20,7 @@ public class RansyaScript : MonoBehaviour {
 		if(Random.Range(0,35) == 1){
 			this.gameObject.GetComponent<MeshRenderer> ().material.color = new Color (0, 0.3f, 0.8f,0.5f);
 			itemGet = true;
-				}
+		}
 		gameManagerScript = GameObject.Find ("GameManager").GetComponent<GameManagerScript> ();
 	}
 	

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Boss2Script : MonoBehaviour {
 	public GameObject wAttack;
-	float hp = 70;
+	float hp = 78;
 	public GameObject sound;
 	public GameObject effect;
 	float rot;

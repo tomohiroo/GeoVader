@@ -911,6 +911,7 @@ MonoBehaviour:
   boss:
   - {fileID: 1943912424891792, guid: 8f2e66219f1b7494f9b36e92e7786928, type: 2}
   - {fileID: 1151352499641984, guid: 0c33f764d1bd14f10b7dd8aebb8b547f, type: 2}
+  - {fileID: 1099303429440480, guid: f3a8f772bfd6a4f9b96d0a4971d88404, type: 2}
   timer: 0
   score: 0
   scoreText: {fileID: 373098072}
@@ -1697,7 +1698,7 @@ Prefab:
     - target: {fileID: 114639457336936286, guid: ab1f3b8ad5af14821ad53ac4bcb4c149,
         type: 2}
       propertyPath: boss.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114639457336936286, guid: ab1f3b8ad5af14821ad53ac4bcb4c149,
         type: 2}
@@ -1930,6 +1931,12 @@ Prefab:
       propertyPath: armsText
       value: 
       objectReference: {fileID: 542579042}
+    - target: {fileID: 114639457336936286, guid: ab1f3b8ad5af14821ad53ac4bcb4c149,
+        type: 2}
+      propertyPath: boss.Array.data[2]
+      value: 
+      objectReference: {fileID: 1099303429440480, guid: f3a8f772bfd6a4f9b96d0a4971d88404,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ab1f3b8ad5af14821ad53ac4bcb4c149, type: 2}
   m_IsPrefabParent: 0

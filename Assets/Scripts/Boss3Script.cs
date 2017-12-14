@@ -2,26 +2,30 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boss1Script : MonoBehaviour {
-	float hp = 85;
+public class Boss3Script : MonoBehaviour {
+	float hp = 80;
 	float attackTimer;
-	public GameObject wAttack;
+	float moveTimer;
+	public GameObject attack;
 	public GameObject bossSound;
 	GameManagerScript gameManagerScript;
 	public GameObject effect;
 	float x = 12.982f;
 	float y = 6.165f;
 	float z = -39.833f;
+	float speed = 3;
 
 
 	// Use this for initialization
 	void Start () {
 		gameManagerScript = GameObject.Find ("GameManager").GetComponent<GameManagerScript> ();
+		transform.position = new Vector3 (-3.7f, 0, 5.26f);
 		}
 	
 	// Update is called once per frame
 	void Update () {
 		attackTimer += Time.deltaTime;
+		moveTimer += Time.deltaTime;
 		Attack ();
 		x += 75 * Time.deltaTime;
 		y += 30 * Time.deltaTime;
@@ -30,18 +34,18 @@ public class Boss1Script : MonoBehaviour {
 	}
 
 	void Attack(){
-		if (attackTimer > 1.5f) {
-			if (Random.Range (0, 2) == 0) {
-				for (int i = 0; i < 36; i++) {
-					Instantiate (wAttack, new Vector3 (0, 0, this.transform.position.z), Quaternion.Euler (0, 90 + i * 10, 45));
-				}
-			} else {
-				for (int i = 0; i < 36; i++) {
-					Instantiate (wAttack, new Vector3 (0, 0, this.transform.position.z), Quaternion.Euler (0, 85 + i * 10, 45));
-				}
-			}
+		if (attackTimer > 0.5f) {
+			Instantiate (attack, new Vector3 (this.transform.position.x + 0.5f, transform.position.y, transform.position.z), Quaternion.identity);
+			Instantiate (attack, new Vector3 (this.transform.position.x - 0.5f, transform.position.y, transform.position.z), Quaternion.identity);
 		attackTimer = 0;
-		
+		}
+		if (moveTimer < 2.5f) {
+			transform.position += new Vector3 (speed, 0, 0) * Time.deltaTime;
+		} else if (moveTimer < 5) {
+			transform.position -= new Vector3 (speed, 0, 0) * Time.deltaTime;
+
+		} else {
+			moveTimer = 0;
 		}
 	}
 		
