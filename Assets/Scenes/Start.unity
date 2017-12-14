@@ -1177,11 +1177,17 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114038497309908002, guid: cf1f91c441868ff4cb428887f1fefb5e,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 13624146, guid: cf1f91c441868ff4cb428887f1fefb5e, type: 2}
     - {fileID: 11408036, guid: cf1f91c441868ff4cb428887f1fefb5e, type: 2}
     - {fileID: 8246070, guid: cf1f91c441868ff4cb428887f1fefb5e, type: 2}
     - {fileID: 114349006072032874, guid: cf1f91c441868ff4cb428887f1fefb5e, type: 2}
+    - {fileID: 114038497309908002, guid: cf1f91c441868ff4cb428887f1fefb5e, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: cf1f91c441868ff4cb428887f1fefb5e, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1188899139
@@ -1306,35 +1312,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1188899139}
---- !u!1 &1296263393 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 112598, guid: cf1f91c441868ff4cb428887f1fefb5e, type: 2}
-  m_PrefabInternal: {fileID: 1175940713}
---- !u!114 &1296263394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1296263393}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fb06a8afa0a8437a928a6bfb39cc201, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1296263393}
-  bullet: {fileID: 1518906066988376, guid: ad4134709f4d94cd68b9976102faf084, type: 2}
-  twinShot: {fileID: 1518906066988376, guid: c3fe0a04eb3de452ea52ae54c3524630, type: 2}
-  wideShot: {fileID: 0}
-  gameManager: {fileID: 0}
-  bomb: {fileID: 0}
-  Laser: {fileID: 1518906066988376, guid: 7c526f9b79d4049f0a2aa8a0dc40e5f7, type: 2}
-  homingShot: {fileID: 1298270000916174, guid: d97204c33bfdf45f5b968c9a1e98bdfe, type: 2}
-  information: {fileID: 0}
-  itemSound: {fileID: 1191511464091984, guid: 453603a804e004e05bdd046d7a4f923b, type: 2}
-  effect: {fileID: 1076088339754784, guid: 9dad01bdfa9884b6dbc219c7a3b9d4a8, type: 2}
-  finish: 0
-  eraser: {fileID: 0}
-  backShot: {fileID: 0}
 --- !u!1 &1341859604
 GameObject:
   m_ObjectHideFlags: 0

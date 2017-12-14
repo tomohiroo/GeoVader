@@ -46,6 +46,7 @@ public class GameManagerScript : MonoBehaviour
 	public bool pausing;
 	public Text pauseButtonText;
 	public GameObject bombButton;
+	public Text armsText;
 
 	//-------------------------yuki----------------------------
 	public int currentRankIndex;
@@ -335,6 +336,7 @@ public class GameManagerScript : MonoBehaviour
 			scoreLabel.text = null;
 			nowScoreText.text = null;
 			gameover.text = "GAME OVER";
+			armsText.text = playerManager.wideCount + "Wides " + playerManager.twinCount + "Twins " + playerManager.laserCount + "Lasers " + playerManager.homingCount + "Homings " + playerManager.eraserCount + "Erasers " + playerManager.backShotCount + "Backs";
 			if (PlayerPrefs.HasKey ("hiScore")) {
 				hiScore = PlayerPrefs.GetInt ("hiScore");
 			}
@@ -511,6 +513,7 @@ public class GameManagerScript : MonoBehaviour
 		originalNumberText1.text = null;
 		image.SetActive (false);
 		lastScoreText.text = null;
+		armsText.text = "";
 		if (bombed) {
 			bombButton.GetComponent<Image> ().color = new Color (0.4f, 0.4f, 0.4f, 0.6f);
 		}

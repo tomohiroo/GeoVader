@@ -17,13 +17,13 @@ public class PlayerManager : MonoBehaviour {
 	float timer;
 	public GameObject Laser;
 	float LaserTimer = -0.2f;
-	int laserCount;
-	int wideCount;
+	public int laserCount;
+	public int wideCount;
 	float wideTimer = -0.02f;
-	int twinCount;
+	public int twinCount;
 	float twinTimer = -0.01f;
 	public GameObject homingShot;
-	int homingCount;
+	public int homingCount;
 	float homingTimer = 0.2f;
 	public Text information;
 	public GameObject itemSound;
@@ -36,9 +36,9 @@ public class PlayerManager : MonoBehaviour {
 	float playTimer;
 	public GameObject eraser;
 	float erasertimer=0.4f;
-	int eraserCount;
+	public int eraserCount;
 	public GameObject backShot;
-	int backShotCount;
+	public int backShotCount;
 
 	void Start () {
 		speed = (float)Screen.width / (float)Screen.height * 20.0f;	
@@ -343,12 +343,15 @@ public class PlayerManager : MonoBehaviour {
 				}
 			}
 		}
+
+
 		if (col.gameObject.tag == "Enemy" || col.gameObject.tag == "Attack"){
 			if (isPlaying) {
 				Instantiate (effect, transform.position, Quaternion.identity);
 				this.transform.position = new Vector3 (0, 0, -500);
 				move = false;
 				Time.timeScale = 0.3f;
+
 			}
 		}
 	}
