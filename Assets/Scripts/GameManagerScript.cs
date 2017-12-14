@@ -47,6 +47,8 @@ public class GameManagerScript : MonoBehaviour
 	public Text pauseButtonText;
 	public GameObject bombButton;
 	public Text armsText;
+	float bossiscomingTimer;
+	bool bossiscoming;
 
 	//-------------------------yuki----------------------------
 	public int currentRankIndex;
@@ -119,11 +121,17 @@ public class GameManagerScript : MonoBehaviour
 		if (playerManager.finish == false) {
 			timer += Time.deltaTime;
 			boolTimer += Time.deltaTime;
+			bossiscomingTimer = boolTimer;
 
 			if (boolTimer > 5) {
 				isGenerate = true;
 				boolTimer = 0;
 				Debug.Log (timer.ToString ());
+			}
+
+			if (bossiscomingTimer > 4) {
+				bossiscoming = true;
+				bossiscomingTimer = 0;
 			}
 
 			if (isGenerate && timer < 6) {
@@ -152,6 +160,10 @@ public class GameManagerScript : MonoBehaviour
 			}
 			
 			if (timer > 50 && timer < 55) {
+				if (bossiscoming) {
+					informationText.color = new Color (0.8f, 0.2f, 0.1f);
+					informationText.text = "Boss is coming!!";
+				}
 				if (isGenerate) {
 					Instantiate (boss [Random.Range (0, boss.Length)]);
 					informationText.text = "Boss is coming!!";
@@ -178,11 +190,17 @@ public class GameManagerScript : MonoBehaviour
 					StartCoroutine ("GenerateEnemy3");
 				}
 			}
-			if (timer > 121 && timer < 126 && isGenerate) {
-				Instantiate (boss [Random.Range (0, boss.Length)]);
-				textTimer = 0;
-				informationText.text = "Boss is coming!!";
-				informationText.color = new Color (0.8f, 0.2f, 0.1f);
+			if (timer > 121 && timer < 126){ 
+				if (bossiscoming) {
+					informationText.color = new Color (0.8f, 0.2f, 0.1f);
+					informationText.text = "Boss is coming!!";
+				}
+				if (isGenerate) {
+					Instantiate (boss [Random.Range (0, boss.Length)]);
+					textTimer = 0;
+					informationText.text = "Boss is coming!!";
+					informationText.color = new Color (0.8f, 0.2f, 0.1f);
+				}
 			}
 			if (timer > 127 && timer < 140) {
 				boolTimer -= Time.deltaTime / 3;
@@ -196,11 +214,17 @@ public class GameManagerScript : MonoBehaviour
 					StartCoroutine ("GenerateEnemy3");
 				}
 			}
-			if (timer > 160 && timer < 165 && isGenerate) {
-				Instantiate (boss [Random.Range (0, boss.Length)]);
-				textTimer = 0;
-				informationText.text = "Boss is coming!!";
-				informationText.color = new Color (0.8f, 0.2f, 0.1f);
+			if (timer > 160 && timer < 165){ 
+				if (bossiscoming) {
+					informationText.color = new Color (0.8f, 0.2f, 0.1f);
+					informationText.text = "Boss is coming!!";
+				}
+				if (isGenerate) {
+					Instantiate (boss [Random.Range (0, boss.Length)]);
+					textTimer = 0;
+					informationText.text = "Boss is coming!!";
+					informationText.color = new Color (0.8f, 0.2f, 0.1f);
+				}
 			}
 			if (timer > 165 && timer < 180) {
 				boolTimer += Time.deltaTime / 4;
@@ -210,20 +234,26 @@ public class GameManagerScript : MonoBehaviour
 				}
 			}
 
-			if (timer > 185 && timer < 190 && isGenerate) {
-				Instantiate (boss [Random.Range (0, boss.Length)]);
-				textTimer = 0;
-				informationText.text = "Boss is coming!!";
-				informationText.color = new Color (0.8f, 0.2f, 0.1f);
-
-				Instantiate (enemy [4], new Vector3 (0, 0, transform.position.z), Quaternion.identity);
-				Instantiate (enemy [4], new Vector3 (3, 0, transform.position.z), Quaternion.identity);
-				for (float i = 0; i < 5; i++) {
-					Instantiate (enemy [1], new Vector3 (Random.Range (-5, 5), 0, this.transform.position.z + i * 1.5f), this.transform.rotation);
+			if (timer > 185 && timer < 190){
+				if (bossiscoming) {
+					informationText.color = new Color (0.8f, 0.2f, 0.1f);
+					informationText.text = "Boss is coming!!";
 				}
-				Instantiate (enemy [5], new Vector3 (player.transform.position.x, 0, transform.position.z), transform.rotation);
-				for (float i = 0; i < 5; i++) {
-					Instantiate (enemy [1], new Vector3 (Random.Range (-5, 5), 0, this.transform.position.z + i * 1.5f), this.transform.rotation);
+				if (isGenerate) {
+					Instantiate (boss [Random.Range (0, boss.Length)]);
+					textTimer = 0;
+					informationText.text = "Boss is coming!!";
+					informationText.color = new Color (0.8f, 0.2f, 0.1f);
+
+					Instantiate (enemy [4], new Vector3 (0, 0, transform.position.z), Quaternion.identity);
+					Instantiate (enemy [4], new Vector3 (3, 0, transform.position.z), Quaternion.identity);
+					for (float i = 0; i < 5; i++) {
+						Instantiate (enemy [1], new Vector3 (Random.Range (-5, 5), 0, this.transform.position.z + i * 1.5f), this.transform.rotation);
+					}
+					Instantiate (enemy [5], new Vector3 (player.transform.position.x, 0, transform.position.z), transform.rotation);
+					for (float i = 0; i < 5; i++) {
+						Instantiate (enemy [1], new Vector3 (Random.Range (-5, 5), 0, this.transform.position.z + i * 1.5f), this.transform.rotation);
+					}
 				}
 			}
 
@@ -240,16 +270,26 @@ public class GameManagerScript : MonoBehaviour
 				}
 			}
 
-			if (timer > 210 && timer < 214 && isGenerate) {
-				Instantiate (boss [Random.Range (0, boss.Length)]);
-				textTimer = 0;
-				informationText.text = "Boss is coming!!";
-				informationText.color = new Color (0.8f, 0.2f, 0.1f);
+			if (timer > 210 && timer < 214){ 
+				if (bossiscoming) {
+					informationText.color = new Color (0.8f, 0.2f, 0.1f);
+					informationText.text = "Boss is coming!!";
+				}
+				if (isGenerate) {
+					Instantiate (boss [Random.Range (0, boss.Length)]);
+					textTimer = 0;
+					informationText.text = "Boss is coming!!";
+					informationText.color = new Color (0.8f, 0.2f, 0.1f);
+				}
 			}
 
 			if (timer > 220) {
 				bossTimer += Time.deltaTime;
 				boolTimer += Time.deltaTime / 5;
+				if (bossTimer > 14 && bossTimer < 14.1f) {
+					informationText.color = new Color (0.8f, 0.2f, 0.1f);
+					informationText.text = "Boss is coming!!";
+				}
 				if (bossTimer > 15) {
 					Instantiate (boss [Random.Range (0, boss.Length)]);
 					textTimer = 0;
@@ -305,8 +345,12 @@ public class GameManagerScript : MonoBehaviour
 				boolTimer += Time.deltaTime / 4;
 				bossTimer += Time.deltaTime / 4;
 			}
-
+			if (timer > 310) {
+				boolTimer += Time.deltaTime * 2;
+				bossTimer += Time.deltaTime;
+			}
 			isGenerate = false;
+			bossiscoming = false;
 			scoreText.text = score.ToString();
 
 			if (informationText.text != "") {
