@@ -4,17 +4,11 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour {
 	float speed = 30;
-	float timer;
 	public GameObject bulletSound;
 	public GameObject effect;
 	
 	// Update is called once per frame
 	void Update () {
-		timer += Time.deltaTime;
-		transform.position += this.transform.forward * speed * Time.deltaTime;
-		if (timer > 5) {
-			Destroy (this.gameObject);
-		}
 		if (transform.position.z > 11) {
 			Destroy (this.gameObject);
 		}

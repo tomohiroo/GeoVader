@@ -14,6 +14,9 @@ public class EraserScript : MonoBehaviour {
 	void Update () {
 		transform.position += new Vector3 (0, 0, 15) * Time.deltaTime;
 		transform.Rotate(new Vector3(0, 900, 0) * Time.deltaTime);
+		if (transform.position.z > 11) {
+			Destroy (this.gameObject);
+		}
 	}
 
 	void OnTriggerEnter(Collider col){
