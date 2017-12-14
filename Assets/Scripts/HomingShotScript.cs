@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HomingShotScript : MonoBehaviour {
-	float speed = 15;
+	float speed = 10;
 	GameObject target;
 	public GameObject homingSound;
 	public GameObject effect;
