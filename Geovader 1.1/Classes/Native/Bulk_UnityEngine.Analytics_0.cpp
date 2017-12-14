@@ -19,31 +19,31 @@
 #include "object-internals.h"
 
 // UnityEngine.Analytics.AnalyticsTracker
-struct AnalyticsTracker_t1212478834;
+struct AnalyticsTracker_t3341670259;
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>
-struct Dictionary_2_t2034629176;
+struct Dictionary_2_t362116922;
 // System.Collections.Generic.Dictionary`2<System.Object,System.Object>
-struct Dictionary_2_t771681626;
+struct Dictionary_2_t3942131101;
 // UnityEngine.Analytics.TrackableProperty
-struct TrackableProperty_t81303949;
+struct TrackableProperty_t2848271658;
 // UnityEngine.MonoBehaviour
-struct MonoBehaviour_t2457110670;
+struct MonoBehaviour_t3068446559;
 // System.String
 struct String_t;
 // System.Collections.Generic.IDictionary`2<System.String,System.Object>
-struct IDictionary_2_t2946624964;
+struct IDictionary_2_t808430530;
 // System.Collections.Generic.List`1<UnityEngine.Analytics.TrackableProperty/FieldWithTarget>
-struct List_1_t2745949437;
+struct List_1_t904705598;
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t2804246631;
+struct List_1_t2180053413;
 // UnityEngine.Analytics.TrackableProperty/FieldWithTarget
-struct FieldWithTarget_t1786615420;
+struct FieldWithTarget_t3110532373;
 // UnityEngine.Object
-struct Object_t2044854715;
+struct Object_t3436183766;
 // System.String[]
-struct StringU5BU5D_t62953633;
+struct StringU5BU5D_t1613568946;
 // System.Char[]
-struct CharU5BU5D_t3152716171;
+struct CharU5BU5D_t757589385;
 // System.Type
 struct Type_t;
 // System.Reflection.PropertyInfo
@@ -51,58 +51,58 @@ struct PropertyInfo_t;
 // System.Reflection.FieldInfo
 struct FieldInfo_t;
 // UnityEngine.Analytics.TrackableProperty/FieldWithTarget[]
-struct FieldWithTargetU5BU5D_t398603285;
+struct FieldWithTargetU5BU5D_t1689055992;
 // System.Int32[]
-struct Int32U5BU5D_t790510266;
+struct Int32U5BU5D_t1730202116;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t3704411390;
+struct LinkU5BU5D_t1679856280;
 // System.Object[]
-struct ObjectU5BU5D_t3094973379;
+struct ObjectU5BU5D_t898615829;
 // System.Collections.Generic.IEqualityComparer`1<System.String>
-struct IEqualityComparer_1_t2667866634;
+struct IEqualityComparer_1_t2393715163;
 // System.Runtime.Serialization.SerializationInfo
-struct SerializationInfo_t4233275853;
+struct SerializationInfo_t2553350701;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Object,System.Collections.DictionaryEntry>
-struct Transform_1_t397254095;
+struct Transform_1_t876353400;
 // System.Byte
-struct Byte_t1283373744;
+struct Byte_t3162042464;
 // System.Double
-struct Double_t546255088;
+struct Double_t3082136317;
 // System.UInt16
-struct UInt16_t3735910690;
+struct UInt16_t4249644521;
 // System.Void
-struct Void_t3007105787;
+struct Void_t3394263177;
 // System.Type[]
-struct TypeU5BU5D_t1943319643;
+struct TypeU5BU5D_t375270461;
 // System.Reflection.MemberFilter
-struct MemberFilter_t2993436455;
+struct MemberFilter_t3099766646;
 
-extern RuntimeClass* Dictionary_2_t2034629176_il2cpp_TypeInfo_var;
-extern RuntimeClass* TrackableProperty_t81303949_il2cpp_TypeInfo_var;
-extern const RuntimeMethod* Dictionary_2__ctor_m1788618493_RuntimeMethod_var;
-extern const uint32_t AnalyticsTracker__ctor_m383217747_MetadataUsageId;
-extern RuntimeClass* Object_t2044854715_il2cpp_TypeInfo_var;
-extern const RuntimeMethod* Dictionary_2_Clear_m821523451_RuntimeMethod_var;
-extern const RuntimeMethod* List_1_get_Count_m3382052130_RuntimeMethod_var;
-extern const RuntimeMethod* List_1_get_Item_m2344570013_RuntimeMethod_var;
-extern const RuntimeMethod* Dictionary_2_set_Item_m69263574_RuntimeMethod_var;
-extern const uint32_t AnalyticsTracker_BuildParameters_m3846687863_MetadataUsageId;
-extern const RuntimeMethod* List_1_GetEnumerator_m2874140041_RuntimeMethod_var;
-extern const RuntimeMethod* Enumerator_get_Current_m1128306862_RuntimeMethod_var;
-extern const RuntimeMethod* Enumerator_MoveNext_m3575150980_RuntimeMethod_var;
-extern const RuntimeMethod* Enumerator_Dispose_m1756701881_RuntimeMethod_var;
-extern const uint32_t TrackableProperty_GetHashCode_m1276393618_MetadataUsageId;
-extern RuntimeClass* CharU5BU5D_t3152716171_il2cpp_TypeInfo_var;
+extern RuntimeClass* Dictionary_2_t362116922_il2cpp_TypeInfo_var;
+extern RuntimeClass* TrackableProperty_t2848271658_il2cpp_TypeInfo_var;
+extern const RuntimeMethod* Dictionary_2__ctor_m4255191166_RuntimeMethod_var;
+extern const uint32_t AnalyticsTracker__ctor_m2079696092_MetadataUsageId;
+extern RuntimeClass* Object_t3436183766_il2cpp_TypeInfo_var;
+extern const RuntimeMethod* Dictionary_2_Clear_m1210583048_RuntimeMethod_var;
+extern const RuntimeMethod* List_1_get_Count_m4293077002_RuntimeMethod_var;
+extern const RuntimeMethod* List_1_get_Item_m2571343293_RuntimeMethod_var;
+extern const RuntimeMethod* Dictionary_2_set_Item_m1241044309_RuntimeMethod_var;
+extern const uint32_t AnalyticsTracker_BuildParameters_m2316480634_MetadataUsageId;
+extern const RuntimeMethod* List_1_GetEnumerator_m4167409269_RuntimeMethod_var;
+extern const RuntimeMethod* Enumerator_get_Current_m1132395548_RuntimeMethod_var;
+extern const RuntimeMethod* Enumerator_MoveNext_m3146334956_RuntimeMethod_var;
+extern const RuntimeMethod* Enumerator_Dispose_m3563227121_RuntimeMethod_var;
+extern const uint32_t TrackableProperty_GetHashCode_m2498938767_MetadataUsageId;
+extern RuntimeClass* CharU5BU5D_t757589385_il2cpp_TypeInfo_var;
 extern RuntimeClass* RuntimeObject_il2cpp_TypeInfo_var;
-extern const uint32_t FieldWithTarget_GetValue_m395284854_MetadataUsageId;
+extern const uint32_t FieldWithTarget_GetValue_m3438246431_MetadataUsageId;
 
-struct StringU5BU5D_t62953633;
-struct CharU5BU5D_t3152716171;
-struct ObjectU5BU5D_t3094973379;
+struct StringU5BU5D_t1613568946;
+struct CharU5BU5D_t757589385;
+struct ObjectU5BU5D_t898615829;
 
 
-#ifndef U3CMODULEU3E_T1934358527_H
-#define U3CMODULEU3E_T1934358527_H
+#ifndef U3CMODULEU3E_T2841851853_H
+#define U3CMODULEU3E_T2841851853_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -110,7 +110,7 @@ struct ObjectU5BU5D_t3094973379;
 #endif
 
 // <Module>
-struct  U3CModuleU3E_t1934358527 
+struct  U3CModuleU3E_t2841851853 
 {
 public:
 
@@ -120,7 +120,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // U3CMODULEU3E_T1934358527_H
+#endif // U3CMODULEU3E_T2841851853_H
 #ifndef RUNTIMEOBJECT_H
 #define RUNTIMEOBJECT_H
 #ifdef __clang__
@@ -170,8 +170,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // MEMBERINFO_T_H
-#ifndef VALUETYPE_T2095814083_H
-#define VALUETYPE_T2095814083_H
+#ifndef VALUETYPE_T2320648697_H
+#define VALUETYPE_T2320648697_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -179,7 +179,7 @@ public:
 #endif
 
 // System.ValueType
-struct  ValueType_t2095814083  : public RuntimeObject
+struct  ValueType_t2320648697  : public RuntimeObject
 {
 public:
 
@@ -190,16 +190,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t2095814083_marshaled_pinvoke
+struct ValueType_t2320648697_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.ValueType
-struct ValueType_t2095814083_marshaled_com
+struct ValueType_t2320648697_marshaled_com
 {
 };
-#endif // VALUETYPE_T2095814083_H
-#ifndef FIELDWITHTARGET_T1786615420_H
-#define FIELDWITHTARGET_T1786615420_H
+#endif // VALUETYPE_T2320648697_H
+#ifndef FIELDWITHTARGET_T3110532373_H
+#define FIELDWITHTARGET_T3110532373_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -207,13 +207,13 @@ struct ValueType_t2095814083_marshaled_com
 #endif
 
 // UnityEngine.Analytics.TrackableProperty/FieldWithTarget
-struct  FieldWithTarget_t1786615420  : public RuntimeObject
+struct  FieldWithTarget_t3110532373  : public RuntimeObject
 {
 public:
 	// System.String UnityEngine.Analytics.TrackableProperty/FieldWithTarget::m_ParamName
 	String_t* ___m_ParamName_0;
 	// UnityEngine.Object UnityEngine.Analytics.TrackableProperty/FieldWithTarget::m_Target
-	Object_t2044854715 * ___m_Target_1;
+	Object_t3436183766 * ___m_Target_1;
 	// System.String UnityEngine.Analytics.TrackableProperty/FieldWithTarget::m_FieldPath
 	String_t* ___m_FieldPath_2;
 	// System.String UnityEngine.Analytics.TrackableProperty/FieldWithTarget::m_TypeString
@@ -224,7 +224,7 @@ public:
 	String_t* ___m_StaticString_5;
 
 public:
-	inline static int32_t get_offset_of_m_ParamName_0() { return static_cast<int32_t>(offsetof(FieldWithTarget_t1786615420, ___m_ParamName_0)); }
+	inline static int32_t get_offset_of_m_ParamName_0() { return static_cast<int32_t>(offsetof(FieldWithTarget_t3110532373, ___m_ParamName_0)); }
 	inline String_t* get_m_ParamName_0() const { return ___m_ParamName_0; }
 	inline String_t** get_address_of_m_ParamName_0() { return &___m_ParamName_0; }
 	inline void set_m_ParamName_0(String_t* value)
@@ -233,16 +233,16 @@ public:
 		Il2CppCodeGenWriteBarrier((&___m_ParamName_0), value);
 	}
 
-	inline static int32_t get_offset_of_m_Target_1() { return static_cast<int32_t>(offsetof(FieldWithTarget_t1786615420, ___m_Target_1)); }
-	inline Object_t2044854715 * get_m_Target_1() const { return ___m_Target_1; }
-	inline Object_t2044854715 ** get_address_of_m_Target_1() { return &___m_Target_1; }
-	inline void set_m_Target_1(Object_t2044854715 * value)
+	inline static int32_t get_offset_of_m_Target_1() { return static_cast<int32_t>(offsetof(FieldWithTarget_t3110532373, ___m_Target_1)); }
+	inline Object_t3436183766 * get_m_Target_1() const { return ___m_Target_1; }
+	inline Object_t3436183766 ** get_address_of_m_Target_1() { return &___m_Target_1; }
+	inline void set_m_Target_1(Object_t3436183766 * value)
 	{
 		___m_Target_1 = value;
 		Il2CppCodeGenWriteBarrier((&___m_Target_1), value);
 	}
 
-	inline static int32_t get_offset_of_m_FieldPath_2() { return static_cast<int32_t>(offsetof(FieldWithTarget_t1786615420, ___m_FieldPath_2)); }
+	inline static int32_t get_offset_of_m_FieldPath_2() { return static_cast<int32_t>(offsetof(FieldWithTarget_t3110532373, ___m_FieldPath_2)); }
 	inline String_t* get_m_FieldPath_2() const { return ___m_FieldPath_2; }
 	inline String_t** get_address_of_m_FieldPath_2() { return &___m_FieldPath_2; }
 	inline void set_m_FieldPath_2(String_t* value)
@@ -251,7 +251,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___m_FieldPath_2), value);
 	}
 
-	inline static int32_t get_offset_of_m_TypeString_3() { return static_cast<int32_t>(offsetof(FieldWithTarget_t1786615420, ___m_TypeString_3)); }
+	inline static int32_t get_offset_of_m_TypeString_3() { return static_cast<int32_t>(offsetof(FieldWithTarget_t3110532373, ___m_TypeString_3)); }
 	inline String_t* get_m_TypeString_3() const { return ___m_TypeString_3; }
 	inline String_t** get_address_of_m_TypeString_3() { return &___m_TypeString_3; }
 	inline void set_m_TypeString_3(String_t* value)
@@ -260,7 +260,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___m_TypeString_3), value);
 	}
 
-	inline static int32_t get_offset_of_m_DoStatic_4() { return static_cast<int32_t>(offsetof(FieldWithTarget_t1786615420, ___m_DoStatic_4)); }
+	inline static int32_t get_offset_of_m_DoStatic_4() { return static_cast<int32_t>(offsetof(FieldWithTarget_t3110532373, ___m_DoStatic_4)); }
 	inline bool get_m_DoStatic_4() const { return ___m_DoStatic_4; }
 	inline bool* get_address_of_m_DoStatic_4() { return &___m_DoStatic_4; }
 	inline void set_m_DoStatic_4(bool value)
@@ -268,7 +268,7 @@ public:
 		___m_DoStatic_4 = value;
 	}
 
-	inline static int32_t get_offset_of_m_StaticString_5() { return static_cast<int32_t>(offsetof(FieldWithTarget_t1786615420, ___m_StaticString_5)); }
+	inline static int32_t get_offset_of_m_StaticString_5() { return static_cast<int32_t>(offsetof(FieldWithTarget_t3110532373, ___m_StaticString_5)); }
 	inline String_t* get_m_StaticString_5() const { return ___m_StaticString_5; }
 	inline String_t** get_address_of_m_StaticString_5() { return &___m_StaticString_5; }
 	inline void set_m_StaticString_5(String_t* value)
@@ -281,7 +281,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // FIELDWITHTARGET_T1786615420_H
+#endif // FIELDWITHTARGET_T3110532373_H
 #ifndef STRING_T_H
 #define STRING_T_H
 #ifdef __clang__
@@ -323,7 +323,7 @@ public:
 	// System.String System.String::Empty
 	String_t* ___Empty_2;
 	// System.Char[] System.String::WhiteChars
-	CharU5BU5D_t3152716171* ___WhiteChars_3;
+	CharU5BU5D_t757589385* ___WhiteChars_3;
 
 public:
 	inline static int32_t get_offset_of_Empty_2() { return static_cast<int32_t>(offsetof(String_t_StaticFields, ___Empty_2)); }
@@ -336,9 +336,9 @@ public:
 	}
 
 	inline static int32_t get_offset_of_WhiteChars_3() { return static_cast<int32_t>(offsetof(String_t_StaticFields, ___WhiteChars_3)); }
-	inline CharU5BU5D_t3152716171* get_WhiteChars_3() const { return ___WhiteChars_3; }
-	inline CharU5BU5D_t3152716171** get_address_of_WhiteChars_3() { return &___WhiteChars_3; }
-	inline void set_WhiteChars_3(CharU5BU5D_t3152716171* value)
+	inline CharU5BU5D_t757589385* get_WhiteChars_3() const { return ___WhiteChars_3; }
+	inline CharU5BU5D_t757589385** get_address_of_WhiteChars_3() { return &___WhiteChars_3; }
+	inline void set_WhiteChars_3(CharU5BU5D_t757589385* value)
 	{
 		___WhiteChars_3 = value;
 		Il2CppCodeGenWriteBarrier((&___WhiteChars_3), value);
@@ -349,8 +349,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // STRING_T_H
-#ifndef LIST_1_T2745949437_H
-#define LIST_1_T2745949437_H
+#ifndef LIST_1_T904705598_H
+#define LIST_1_T904705598_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -358,27 +358,27 @@ public:
 #endif
 
 // System.Collections.Generic.List`1<UnityEngine.Analytics.TrackableProperty/FieldWithTarget>
-struct  List_1_t2745949437  : public RuntimeObject
+struct  List_1_t904705598  : public RuntimeObject
 {
 public:
 	// T[] System.Collections.Generic.List`1::_items
-	FieldWithTargetU5BU5D_t398603285* ____items_1;
+	FieldWithTargetU5BU5D_t1689055992* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 
 public:
-	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t2745949437, ____items_1)); }
-	inline FieldWithTargetU5BU5D_t398603285* get__items_1() const { return ____items_1; }
-	inline FieldWithTargetU5BU5D_t398603285** get_address_of__items_1() { return &____items_1; }
-	inline void set__items_1(FieldWithTargetU5BU5D_t398603285* value)
+	inline static int32_t get_offset_of__items_1() { return static_cast<int32_t>(offsetof(List_1_t904705598, ____items_1)); }
+	inline FieldWithTargetU5BU5D_t1689055992* get__items_1() const { return ____items_1; }
+	inline FieldWithTargetU5BU5D_t1689055992** get_address_of__items_1() { return &____items_1; }
+	inline void set__items_1(FieldWithTargetU5BU5D_t1689055992* value)
 	{
 		____items_1 = value;
 		Il2CppCodeGenWriteBarrier((&____items_1), value);
 	}
 
-	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t2745949437, ____size_2)); }
+	inline static int32_t get_offset_of__size_2() { return static_cast<int32_t>(offsetof(List_1_t904705598, ____size_2)); }
 	inline int32_t get__size_2() const { return ____size_2; }
 	inline int32_t* get_address_of__size_2() { return &____size_2; }
 	inline void set__size_2(int32_t value)
@@ -386,7 +386,7 @@ public:
 		____size_2 = value;
 	}
 
-	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t2745949437, ____version_3)); }
+	inline static int32_t get_offset_of__version_3() { return static_cast<int32_t>(offsetof(List_1_t904705598, ____version_3)); }
 	inline int32_t get__version_3() const { return ____version_3; }
 	inline int32_t* get_address_of__version_3() { return &____version_3; }
 	inline void set__version_3(int32_t value)
@@ -395,17 +395,17 @@ public:
 	}
 };
 
-struct List_1_t2745949437_StaticFields
+struct List_1_t904705598_StaticFields
 {
 public:
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	FieldWithTargetU5BU5D_t398603285* ___EmptyArray_4;
+	FieldWithTargetU5BU5D_t1689055992* ___EmptyArray_4;
 
 public:
-	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t2745949437_StaticFields, ___EmptyArray_4)); }
-	inline FieldWithTargetU5BU5D_t398603285* get_EmptyArray_4() const { return ___EmptyArray_4; }
-	inline FieldWithTargetU5BU5D_t398603285** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
-	inline void set_EmptyArray_4(FieldWithTargetU5BU5D_t398603285* value)
+	inline static int32_t get_offset_of_EmptyArray_4() { return static_cast<int32_t>(offsetof(List_1_t904705598_StaticFields, ___EmptyArray_4)); }
+	inline FieldWithTargetU5BU5D_t1689055992* get_EmptyArray_4() const { return ___EmptyArray_4; }
+	inline FieldWithTargetU5BU5D_t1689055992** get_address_of_EmptyArray_4() { return &___EmptyArray_4; }
+	inline void set_EmptyArray_4(FieldWithTargetU5BU5D_t1689055992* value)
 	{
 		___EmptyArray_4 = value;
 		Il2CppCodeGenWriteBarrier((&___EmptyArray_4), value);
@@ -415,9 +415,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // LIST_1_T2745949437_H
-#ifndef TRACKABLEPROPERTY_T81303949_H
-#define TRACKABLEPROPERTY_T81303949_H
+#endif // LIST_1_T904705598_H
+#ifndef TRACKABLEPROPERTY_T2848271658_H
+#define TRACKABLEPROPERTY_T2848271658_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -425,17 +425,17 @@ public:
 #endif
 
 // UnityEngine.Analytics.TrackableProperty
-struct  TrackableProperty_t81303949  : public RuntimeObject
+struct  TrackableProperty_t2848271658  : public RuntimeObject
 {
 public:
 	// System.Collections.Generic.List`1<UnityEngine.Analytics.TrackableProperty/FieldWithTarget> UnityEngine.Analytics.TrackableProperty::m_Fields
-	List_1_t2745949437 * ___m_Fields_1;
+	List_1_t904705598 * ___m_Fields_1;
 
 public:
-	inline static int32_t get_offset_of_m_Fields_1() { return static_cast<int32_t>(offsetof(TrackableProperty_t81303949, ___m_Fields_1)); }
-	inline List_1_t2745949437 * get_m_Fields_1() const { return ___m_Fields_1; }
-	inline List_1_t2745949437 ** get_address_of_m_Fields_1() { return &___m_Fields_1; }
-	inline void set_m_Fields_1(List_1_t2745949437 * value)
+	inline static int32_t get_offset_of_m_Fields_1() { return static_cast<int32_t>(offsetof(TrackableProperty_t2848271658, ___m_Fields_1)); }
+	inline List_1_t904705598 * get_m_Fields_1() const { return ___m_Fields_1; }
+	inline List_1_t904705598 ** get_address_of_m_Fields_1() { return &___m_Fields_1; }
+	inline void set_m_Fields_1(List_1_t904705598 * value)
 	{
 		___m_Fields_1 = value;
 		Il2CppCodeGenWriteBarrier((&___m_Fields_1), value);
@@ -445,9 +445,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // TRACKABLEPROPERTY_T81303949_H
-#ifndef DICTIONARY_2_T2034629176_H
-#define DICTIONARY_2_T2034629176_H
+#endif // TRACKABLEPROPERTY_T2848271658_H
+#ifndef DICTIONARY_2_T362116922_H
+#define DICTIONARY_2_T362116922_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -455,17 +455,17 @@ public:
 #endif
 
 // System.Collections.Generic.Dictionary`2<System.String,System.Object>
-struct  Dictionary_2_t2034629176  : public RuntimeObject
+struct  Dictionary_2_t362116922  : public RuntimeObject
 {
 public:
 	// System.Int32[] System.Collections.Generic.Dictionary`2::table
-	Int32U5BU5D_t790510266* ___table_4;
+	Int32U5BU5D_t1730202116* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2::linkSlots
-	LinkU5BU5D_t3704411390* ___linkSlots_5;
+	LinkU5BU5D_t1679856280* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2::keySlots
-	StringU5BU5D_t62953633* ___keySlots_6;
+	StringU5BU5D_t1613568946* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2::valueSlots
-	ObjectU5BU5D_t3094973379* ___valueSlots_7;
+	ObjectU5BU5D_t898615829* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2::touchedSlots
 	int32_t ___touchedSlots_8;
 	// System.Int32 System.Collections.Generic.Dictionary`2::emptySlot
@@ -477,48 +477,48 @@ public:
 	// System.Collections.Generic.IEqualityComparer`1<TKey> System.Collections.Generic.Dictionary`2::hcp
 	RuntimeObject* ___hcp_12;
 	// System.Runtime.Serialization.SerializationInfo System.Collections.Generic.Dictionary`2::serialization_info
-	SerializationInfo_t4233275853 * ___serialization_info_13;
+	SerializationInfo_t2553350701 * ___serialization_info_13;
 	// System.Int32 System.Collections.Generic.Dictionary`2::generation
 	int32_t ___generation_14;
 
 public:
-	inline static int32_t get_offset_of_table_4() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176, ___table_4)); }
-	inline Int32U5BU5D_t790510266* get_table_4() const { return ___table_4; }
-	inline Int32U5BU5D_t790510266** get_address_of_table_4() { return &___table_4; }
-	inline void set_table_4(Int32U5BU5D_t790510266* value)
+	inline static int32_t get_offset_of_table_4() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922, ___table_4)); }
+	inline Int32U5BU5D_t1730202116* get_table_4() const { return ___table_4; }
+	inline Int32U5BU5D_t1730202116** get_address_of_table_4() { return &___table_4; }
+	inline void set_table_4(Int32U5BU5D_t1730202116* value)
 	{
 		___table_4 = value;
 		Il2CppCodeGenWriteBarrier((&___table_4), value);
 	}
 
-	inline static int32_t get_offset_of_linkSlots_5() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176, ___linkSlots_5)); }
-	inline LinkU5BU5D_t3704411390* get_linkSlots_5() const { return ___linkSlots_5; }
-	inline LinkU5BU5D_t3704411390** get_address_of_linkSlots_5() { return &___linkSlots_5; }
-	inline void set_linkSlots_5(LinkU5BU5D_t3704411390* value)
+	inline static int32_t get_offset_of_linkSlots_5() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922, ___linkSlots_5)); }
+	inline LinkU5BU5D_t1679856280* get_linkSlots_5() const { return ___linkSlots_5; }
+	inline LinkU5BU5D_t1679856280** get_address_of_linkSlots_5() { return &___linkSlots_5; }
+	inline void set_linkSlots_5(LinkU5BU5D_t1679856280* value)
 	{
 		___linkSlots_5 = value;
 		Il2CppCodeGenWriteBarrier((&___linkSlots_5), value);
 	}
 
-	inline static int32_t get_offset_of_keySlots_6() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176, ___keySlots_6)); }
-	inline StringU5BU5D_t62953633* get_keySlots_6() const { return ___keySlots_6; }
-	inline StringU5BU5D_t62953633** get_address_of_keySlots_6() { return &___keySlots_6; }
-	inline void set_keySlots_6(StringU5BU5D_t62953633* value)
+	inline static int32_t get_offset_of_keySlots_6() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922, ___keySlots_6)); }
+	inline StringU5BU5D_t1613568946* get_keySlots_6() const { return ___keySlots_6; }
+	inline StringU5BU5D_t1613568946** get_address_of_keySlots_6() { return &___keySlots_6; }
+	inline void set_keySlots_6(StringU5BU5D_t1613568946* value)
 	{
 		___keySlots_6 = value;
 		Il2CppCodeGenWriteBarrier((&___keySlots_6), value);
 	}
 
-	inline static int32_t get_offset_of_valueSlots_7() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176, ___valueSlots_7)); }
-	inline ObjectU5BU5D_t3094973379* get_valueSlots_7() const { return ___valueSlots_7; }
-	inline ObjectU5BU5D_t3094973379** get_address_of_valueSlots_7() { return &___valueSlots_7; }
-	inline void set_valueSlots_7(ObjectU5BU5D_t3094973379* value)
+	inline static int32_t get_offset_of_valueSlots_7() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922, ___valueSlots_7)); }
+	inline ObjectU5BU5D_t898615829* get_valueSlots_7() const { return ___valueSlots_7; }
+	inline ObjectU5BU5D_t898615829** get_address_of_valueSlots_7() { return &___valueSlots_7; }
+	inline void set_valueSlots_7(ObjectU5BU5D_t898615829* value)
 	{
 		___valueSlots_7 = value;
 		Il2CppCodeGenWriteBarrier((&___valueSlots_7), value);
 	}
 
-	inline static int32_t get_offset_of_touchedSlots_8() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176, ___touchedSlots_8)); }
+	inline static int32_t get_offset_of_touchedSlots_8() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922, ___touchedSlots_8)); }
 	inline int32_t get_touchedSlots_8() const { return ___touchedSlots_8; }
 	inline int32_t* get_address_of_touchedSlots_8() { return &___touchedSlots_8; }
 	inline void set_touchedSlots_8(int32_t value)
@@ -526,7 +526,7 @@ public:
 		___touchedSlots_8 = value;
 	}
 
-	inline static int32_t get_offset_of_emptySlot_9() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176, ___emptySlot_9)); }
+	inline static int32_t get_offset_of_emptySlot_9() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922, ___emptySlot_9)); }
 	inline int32_t get_emptySlot_9() const { return ___emptySlot_9; }
 	inline int32_t* get_address_of_emptySlot_9() { return &___emptySlot_9; }
 	inline void set_emptySlot_9(int32_t value)
@@ -534,7 +534,7 @@ public:
 		___emptySlot_9 = value;
 	}
 
-	inline static int32_t get_offset_of_count_10() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176, ___count_10)); }
+	inline static int32_t get_offset_of_count_10() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922, ___count_10)); }
 	inline int32_t get_count_10() const { return ___count_10; }
 	inline int32_t* get_address_of_count_10() { return &___count_10; }
 	inline void set_count_10(int32_t value)
@@ -542,7 +542,7 @@ public:
 		___count_10 = value;
 	}
 
-	inline static int32_t get_offset_of_threshold_11() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176, ___threshold_11)); }
+	inline static int32_t get_offset_of_threshold_11() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922, ___threshold_11)); }
 	inline int32_t get_threshold_11() const { return ___threshold_11; }
 	inline int32_t* get_address_of_threshold_11() { return &___threshold_11; }
 	inline void set_threshold_11(int32_t value)
@@ -550,7 +550,7 @@ public:
 		___threshold_11 = value;
 	}
 
-	inline static int32_t get_offset_of_hcp_12() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176, ___hcp_12)); }
+	inline static int32_t get_offset_of_hcp_12() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922, ___hcp_12)); }
 	inline RuntimeObject* get_hcp_12() const { return ___hcp_12; }
 	inline RuntimeObject** get_address_of_hcp_12() { return &___hcp_12; }
 	inline void set_hcp_12(RuntimeObject* value)
@@ -559,16 +559,16 @@ public:
 		Il2CppCodeGenWriteBarrier((&___hcp_12), value);
 	}
 
-	inline static int32_t get_offset_of_serialization_info_13() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176, ___serialization_info_13)); }
-	inline SerializationInfo_t4233275853 * get_serialization_info_13() const { return ___serialization_info_13; }
-	inline SerializationInfo_t4233275853 ** get_address_of_serialization_info_13() { return &___serialization_info_13; }
-	inline void set_serialization_info_13(SerializationInfo_t4233275853 * value)
+	inline static int32_t get_offset_of_serialization_info_13() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922, ___serialization_info_13)); }
+	inline SerializationInfo_t2553350701 * get_serialization_info_13() const { return ___serialization_info_13; }
+	inline SerializationInfo_t2553350701 ** get_address_of_serialization_info_13() { return &___serialization_info_13; }
+	inline void set_serialization_info_13(SerializationInfo_t2553350701 * value)
 	{
 		___serialization_info_13 = value;
 		Il2CppCodeGenWriteBarrier((&___serialization_info_13), value);
 	}
 
-	inline static int32_t get_offset_of_generation_14() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176, ___generation_14)); }
+	inline static int32_t get_offset_of_generation_14() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922, ___generation_14)); }
 	inline int32_t get_generation_14() const { return ___generation_14; }
 	inline int32_t* get_address_of_generation_14() { return &___generation_14; }
 	inline void set_generation_14(int32_t value)
@@ -577,17 +577,17 @@ public:
 	}
 };
 
-struct Dictionary_2_t2034629176_StaticFields
+struct Dictionary_2_t362116922_StaticFields
 {
 public:
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2::<>f__am$cacheB
-	Transform_1_t397254095 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t876353400 * ___U3CU3Ef__amU24cacheB_15;
 
 public:
-	inline static int32_t get_offset_of_U3CU3Ef__amU24cacheB_15() { return static_cast<int32_t>(offsetof(Dictionary_2_t2034629176_StaticFields, ___U3CU3Ef__amU24cacheB_15)); }
-	inline Transform_1_t397254095 * get_U3CU3Ef__amU24cacheB_15() const { return ___U3CU3Ef__amU24cacheB_15; }
-	inline Transform_1_t397254095 ** get_address_of_U3CU3Ef__amU24cacheB_15() { return &___U3CU3Ef__amU24cacheB_15; }
-	inline void set_U3CU3Ef__amU24cacheB_15(Transform_1_t397254095 * value)
+	inline static int32_t get_offset_of_U3CU3Ef__amU24cacheB_15() { return static_cast<int32_t>(offsetof(Dictionary_2_t362116922_StaticFields, ___U3CU3Ef__amU24cacheB_15)); }
+	inline Transform_1_t876353400 * get_U3CU3Ef__amU24cacheB_15() const { return ___U3CU3Ef__amU24cacheB_15; }
+	inline Transform_1_t876353400 ** get_address_of_U3CU3Ef__amU24cacheB_15() { return &___U3CU3Ef__amU24cacheB_15; }
+	inline void set_U3CU3Ef__amU24cacheB_15(Transform_1_t876353400 * value)
 	{
 		___U3CU3Ef__amU24cacheB_15 = value;
 		Il2CppCodeGenWriteBarrier((&___U3CU3Ef__amU24cacheB_15), value);
@@ -597,7 +597,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // DICTIONARY_2_T2034629176_H
+#endif // DICTIONARY_2_T362116922_H
 #ifndef PROPERTYINFO_T_H
 #define PROPERTYINFO_T_H
 #ifdef __clang__
@@ -618,8 +618,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // PROPERTYINFO_T_H
-#ifndef VOID_T3007105787_H
-#define VOID_T3007105787_H
+#ifndef VOID_T3394263177_H
+#define VOID_T3394263177_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -627,7 +627,7 @@ public:
 #endif
 
 // System.Void
-struct  Void_t3007105787 
+struct  Void_t3394263177 
 {
 public:
 
@@ -637,9 +637,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // VOID_T3007105787_H
-#ifndef CHAR_T551107006_H
-#define CHAR_T551107006_H
+#endif // VOID_T3394263177_H
+#ifndef CHAR_T1171600152_H
+#define CHAR_T1171600152_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -647,14 +647,14 @@ public:
 #endif
 
 // System.Char
-struct  Char_t551107006 
+struct  Char_t1171600152 
 {
 public:
 	// System.Char System.Char::m_value
 	Il2CppChar ___m_value_2;
 
 public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Char_t551107006, ___m_value_2)); }
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Char_t1171600152, ___m_value_2)); }
 	inline Il2CppChar get_m_value_2() const { return ___m_value_2; }
 	inline Il2CppChar* get_address_of_m_value_2() { return &___m_value_2; }
 	inline void set_m_value_2(Il2CppChar value)
@@ -663,7 +663,7 @@ public:
 	}
 };
 
-struct Char_t551107006_StaticFields
+struct Char_t1171600152_StaticFields
 {
 public:
 	// System.Byte* System.Char::category_data
@@ -682,7 +682,7 @@ public:
 	uint16_t* ___to_upper_data_high_9;
 
 public:
-	inline static int32_t get_offset_of_category_data_3() { return static_cast<int32_t>(offsetof(Char_t551107006_StaticFields, ___category_data_3)); }
+	inline static int32_t get_offset_of_category_data_3() { return static_cast<int32_t>(offsetof(Char_t1171600152_StaticFields, ___category_data_3)); }
 	inline uint8_t* get_category_data_3() const { return ___category_data_3; }
 	inline uint8_t** get_address_of_category_data_3() { return &___category_data_3; }
 	inline void set_category_data_3(uint8_t* value)
@@ -690,7 +690,7 @@ public:
 		___category_data_3 = value;
 	}
 
-	inline static int32_t get_offset_of_numeric_data_4() { return static_cast<int32_t>(offsetof(Char_t551107006_StaticFields, ___numeric_data_4)); }
+	inline static int32_t get_offset_of_numeric_data_4() { return static_cast<int32_t>(offsetof(Char_t1171600152_StaticFields, ___numeric_data_4)); }
 	inline uint8_t* get_numeric_data_4() const { return ___numeric_data_4; }
 	inline uint8_t** get_address_of_numeric_data_4() { return &___numeric_data_4; }
 	inline void set_numeric_data_4(uint8_t* value)
@@ -698,7 +698,7 @@ public:
 		___numeric_data_4 = value;
 	}
 
-	inline static int32_t get_offset_of_numeric_data_values_5() { return static_cast<int32_t>(offsetof(Char_t551107006_StaticFields, ___numeric_data_values_5)); }
+	inline static int32_t get_offset_of_numeric_data_values_5() { return static_cast<int32_t>(offsetof(Char_t1171600152_StaticFields, ___numeric_data_values_5)); }
 	inline double* get_numeric_data_values_5() const { return ___numeric_data_values_5; }
 	inline double** get_address_of_numeric_data_values_5() { return &___numeric_data_values_5; }
 	inline void set_numeric_data_values_5(double* value)
@@ -706,7 +706,7 @@ public:
 		___numeric_data_values_5 = value;
 	}
 
-	inline static int32_t get_offset_of_to_lower_data_low_6() { return static_cast<int32_t>(offsetof(Char_t551107006_StaticFields, ___to_lower_data_low_6)); }
+	inline static int32_t get_offset_of_to_lower_data_low_6() { return static_cast<int32_t>(offsetof(Char_t1171600152_StaticFields, ___to_lower_data_low_6)); }
 	inline uint16_t* get_to_lower_data_low_6() const { return ___to_lower_data_low_6; }
 	inline uint16_t** get_address_of_to_lower_data_low_6() { return &___to_lower_data_low_6; }
 	inline void set_to_lower_data_low_6(uint16_t* value)
@@ -714,7 +714,7 @@ public:
 		___to_lower_data_low_6 = value;
 	}
 
-	inline static int32_t get_offset_of_to_lower_data_high_7() { return static_cast<int32_t>(offsetof(Char_t551107006_StaticFields, ___to_lower_data_high_7)); }
+	inline static int32_t get_offset_of_to_lower_data_high_7() { return static_cast<int32_t>(offsetof(Char_t1171600152_StaticFields, ___to_lower_data_high_7)); }
 	inline uint16_t* get_to_lower_data_high_7() const { return ___to_lower_data_high_7; }
 	inline uint16_t** get_address_of_to_lower_data_high_7() { return &___to_lower_data_high_7; }
 	inline void set_to_lower_data_high_7(uint16_t* value)
@@ -722,7 +722,7 @@ public:
 		___to_lower_data_high_7 = value;
 	}
 
-	inline static int32_t get_offset_of_to_upper_data_low_8() { return static_cast<int32_t>(offsetof(Char_t551107006_StaticFields, ___to_upper_data_low_8)); }
+	inline static int32_t get_offset_of_to_upper_data_low_8() { return static_cast<int32_t>(offsetof(Char_t1171600152_StaticFields, ___to_upper_data_low_8)); }
 	inline uint16_t* get_to_upper_data_low_8() const { return ___to_upper_data_low_8; }
 	inline uint16_t** get_address_of_to_upper_data_low_8() { return &___to_upper_data_low_8; }
 	inline void set_to_upper_data_low_8(uint16_t* value)
@@ -730,7 +730,7 @@ public:
 		___to_upper_data_low_8 = value;
 	}
 
-	inline static int32_t get_offset_of_to_upper_data_high_9() { return static_cast<int32_t>(offsetof(Char_t551107006_StaticFields, ___to_upper_data_high_9)); }
+	inline static int32_t get_offset_of_to_upper_data_high_9() { return static_cast<int32_t>(offsetof(Char_t1171600152_StaticFields, ___to_upper_data_high_9)); }
 	inline uint16_t* get_to_upper_data_high_9() const { return ___to_upper_data_high_9; }
 	inline uint16_t** get_address_of_to_upper_data_high_9() { return &___to_upper_data_high_9; }
 	inline void set_to_upper_data_high_9(uint16_t* value)
@@ -742,7 +742,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // CHAR_T551107006_H
+#endif // CHAR_T1171600152_H
 #ifndef FIELDINFO_T_H
 #define FIELDINFO_T_H
 #ifdef __clang__
@@ -763,8 +763,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // FIELDINFO_T_H
-#ifndef ENUMERATOR_T3940464299_H
-#define ENUMERATOR_T3940464299_H
+#ifndef ENUMERATOR_T2137753599_H
+#define ENUMERATOR_T2137753599_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -772,11 +772,11 @@ public:
 #endif
 
 // System.Collections.Generic.List`1/Enumerator<System.Object>
-struct  Enumerator_t3940464299 
+struct  Enumerator_t2137753599 
 {
 public:
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t2804246631 * ___l_0;
+	List_1_t2180053413 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
@@ -785,16 +785,16 @@ public:
 	RuntimeObject * ___current_3;
 
 public:
-	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t3940464299, ___l_0)); }
-	inline List_1_t2804246631 * get_l_0() const { return ___l_0; }
-	inline List_1_t2804246631 ** get_address_of_l_0() { return &___l_0; }
-	inline void set_l_0(List_1_t2804246631 * value)
+	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t2137753599, ___l_0)); }
+	inline List_1_t2180053413 * get_l_0() const { return ___l_0; }
+	inline List_1_t2180053413 ** get_address_of_l_0() { return &___l_0; }
+	inline void set_l_0(List_1_t2180053413 * value)
 	{
 		___l_0 = value;
 		Il2CppCodeGenWriteBarrier((&___l_0), value);
 	}
 
-	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t3940464299, ___next_1)); }
+	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t2137753599, ___next_1)); }
 	inline int32_t get_next_1() const { return ___next_1; }
 	inline int32_t* get_address_of_next_1() { return &___next_1; }
 	inline void set_next_1(int32_t value)
@@ -802,7 +802,7 @@ public:
 		___next_1 = value;
 	}
 
-	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t3940464299, ___ver_2)); }
+	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t2137753599, ___ver_2)); }
 	inline int32_t get_ver_2() const { return ___ver_2; }
 	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
 	inline void set_ver_2(int32_t value)
@@ -810,7 +810,7 @@ public:
 		___ver_2 = value;
 	}
 
-	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t3940464299, ___current_3)); }
+	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t2137753599, ___current_3)); }
 	inline RuntimeObject * get_current_3() const { return ___current_3; }
 	inline RuntimeObject ** get_address_of_current_3() { return &___current_3; }
 	inline void set_current_3(RuntimeObject * value)
@@ -823,9 +823,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // ENUMERATOR_T3940464299_H
-#ifndef ENUM_T1051914835_H
-#define ENUM_T1051914835_H
+#endif // ENUMERATOR_T2137753599_H
+#ifndef ENUM_T2729981184_H
+#define ENUM_T2729981184_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -833,24 +833,24 @@ public:
 #endif
 
 // System.Enum
-struct  Enum_t1051914835  : public ValueType_t2095814083
+struct  Enum_t2729981184  : public ValueType_t2320648697
 {
 public:
 
 public:
 };
 
-struct Enum_t1051914835_StaticFields
+struct Enum_t2729981184_StaticFields
 {
 public:
 	// System.Char[] System.Enum::split_char
-	CharU5BU5D_t3152716171* ___split_char_0;
+	CharU5BU5D_t757589385* ___split_char_0;
 
 public:
-	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t1051914835_StaticFields, ___split_char_0)); }
-	inline CharU5BU5D_t3152716171* get_split_char_0() const { return ___split_char_0; }
-	inline CharU5BU5D_t3152716171** get_address_of_split_char_0() { return &___split_char_0; }
-	inline void set_split_char_0(CharU5BU5D_t3152716171* value)
+	inline static int32_t get_offset_of_split_char_0() { return static_cast<int32_t>(offsetof(Enum_t2729981184_StaticFields, ___split_char_0)); }
+	inline CharU5BU5D_t757589385* get_split_char_0() const { return ___split_char_0; }
+	inline CharU5BU5D_t757589385** get_address_of_split_char_0() { return &___split_char_0; }
+	inline void set_split_char_0(CharU5BU5D_t757589385* value)
 	{
 		___split_char_0 = value;
 		Il2CppCodeGenWriteBarrier((&___split_char_0), value);
@@ -861,16 +861,16 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.Enum
-struct Enum_t1051914835_marshaled_pinvoke
+struct Enum_t2729981184_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.Enum
-struct Enum_t1051914835_marshaled_com
+struct Enum_t2729981184_marshaled_com
 {
 };
-#endif // ENUM_T1051914835_H
-#ifndef ENUMERATOR_T3882167105_H
-#define ENUMERATOR_T3882167105_H
+#endif // ENUM_T2729981184_H
+#ifndef ENUMERATOR_T862405784_H
+#define ENUMERATOR_T862405784_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -878,29 +878,29 @@ struct Enum_t1051914835_marshaled_com
 #endif
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.Analytics.TrackableProperty/FieldWithTarget>
-struct  Enumerator_t3882167105 
+struct  Enumerator_t862405784 
 {
 public:
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t2745949437 * ___l_0;
+	List_1_t904705598 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator::current
-	FieldWithTarget_t1786615420 * ___current_3;
+	FieldWithTarget_t3110532373 * ___current_3;
 
 public:
-	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t3882167105, ___l_0)); }
-	inline List_1_t2745949437 * get_l_0() const { return ___l_0; }
-	inline List_1_t2745949437 ** get_address_of_l_0() { return &___l_0; }
-	inline void set_l_0(List_1_t2745949437 * value)
+	inline static int32_t get_offset_of_l_0() { return static_cast<int32_t>(offsetof(Enumerator_t862405784, ___l_0)); }
+	inline List_1_t904705598 * get_l_0() const { return ___l_0; }
+	inline List_1_t904705598 ** get_address_of_l_0() { return &___l_0; }
+	inline void set_l_0(List_1_t904705598 * value)
 	{
 		___l_0 = value;
 		Il2CppCodeGenWriteBarrier((&___l_0), value);
 	}
 
-	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t3882167105, ___next_1)); }
+	inline static int32_t get_offset_of_next_1() { return static_cast<int32_t>(offsetof(Enumerator_t862405784, ___next_1)); }
 	inline int32_t get_next_1() const { return ___next_1; }
 	inline int32_t* get_address_of_next_1() { return &___next_1; }
 	inline void set_next_1(int32_t value)
@@ -908,7 +908,7 @@ public:
 		___next_1 = value;
 	}
 
-	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t3882167105, ___ver_2)); }
+	inline static int32_t get_offset_of_ver_2() { return static_cast<int32_t>(offsetof(Enumerator_t862405784, ___ver_2)); }
 	inline int32_t get_ver_2() const { return ___ver_2; }
 	inline int32_t* get_address_of_ver_2() { return &___ver_2; }
 	inline void set_ver_2(int32_t value)
@@ -916,10 +916,10 @@ public:
 		___ver_2 = value;
 	}
 
-	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t3882167105, ___current_3)); }
-	inline FieldWithTarget_t1786615420 * get_current_3() const { return ___current_3; }
-	inline FieldWithTarget_t1786615420 ** get_address_of_current_3() { return &___current_3; }
-	inline void set_current_3(FieldWithTarget_t1786615420 * value)
+	inline static int32_t get_offset_of_current_3() { return static_cast<int32_t>(offsetof(Enumerator_t862405784, ___current_3)); }
+	inline FieldWithTarget_t3110532373 * get_current_3() const { return ___current_3; }
+	inline FieldWithTarget_t3110532373 ** get_address_of_current_3() { return &___current_3; }
+	inline void set_current_3(FieldWithTarget_t3110532373 * value)
 	{
 		___current_3 = value;
 		Il2CppCodeGenWriteBarrier((&___current_3), value);
@@ -929,9 +929,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // ENUMERATOR_T3882167105_H
-#ifndef INT32_T2253130491_H
-#define INT32_T2253130491_H
+#endif // ENUMERATOR_T862405784_H
+#ifndef INT32_T3835894265_H
+#define INT32_T3835894265_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -939,14 +939,14 @@ public:
 #endif
 
 // System.Int32
-struct  Int32_t2253130491 
+struct  Int32_t3835894265 
 {
 public:
 	// System.Int32 System.Int32::m_value
 	int32_t ___m_value_2;
 
 public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int32_t2253130491, ___m_value_2)); }
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Int32_t3835894265, ___m_value_2)); }
 	inline int32_t get_m_value_2() const { return ___m_value_2; }
 	inline int32_t* get_address_of_m_value_2() { return &___m_value_2; }
 	inline void set_m_value_2(int32_t value)
@@ -958,9 +958,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // INT32_T2253130491_H
-#ifndef BOOLEAN_T779405450_H
-#define BOOLEAN_T779405450_H
+#endif // INT32_T3835894265_H
+#ifndef BOOLEAN_T3792624234_H
+#define BOOLEAN_T3792624234_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -968,14 +968,14 @@ public:
 #endif
 
 // System.Boolean
-struct  Boolean_t779405450 
+struct  Boolean_t3792624234 
 {
 public:
 	// System.Boolean System.Boolean::m_value
 	bool ___m_value_2;
 
 public:
-	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t779405450, ___m_value_2)); }
+	inline static int32_t get_offset_of_m_value_2() { return static_cast<int32_t>(offsetof(Boolean_t3792624234, ___m_value_2)); }
 	inline bool get_m_value_2() const { return ___m_value_2; }
 	inline bool* get_address_of_m_value_2() { return &___m_value_2; }
 	inline void set_m_value_2(bool value)
@@ -984,7 +984,7 @@ public:
 	}
 };
 
-struct Boolean_t779405450_StaticFields
+struct Boolean_t3792624234_StaticFields
 {
 public:
 	// System.String System.Boolean::FalseString
@@ -993,7 +993,7 @@ public:
 	String_t* ___TrueString_1;
 
 public:
-	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t779405450_StaticFields, ___FalseString_0)); }
+	inline static int32_t get_offset_of_FalseString_0() { return static_cast<int32_t>(offsetof(Boolean_t3792624234_StaticFields, ___FalseString_0)); }
 	inline String_t* get_FalseString_0() const { return ___FalseString_0; }
 	inline String_t** get_address_of_FalseString_0() { return &___FalseString_0; }
 	inline void set_FalseString_0(String_t* value)
@@ -1002,7 +1002,7 @@ public:
 		Il2CppCodeGenWriteBarrier((&___FalseString_0), value);
 	}
 
-	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t779405450_StaticFields, ___TrueString_1)); }
+	inline static int32_t get_offset_of_TrueString_1() { return static_cast<int32_t>(offsetof(Boolean_t3792624234_StaticFields, ___TrueString_1)); }
 	inline String_t* get_TrueString_1() const { return ___TrueString_1; }
 	inline String_t** get_address_of_TrueString_1() { return &___TrueString_1; }
 	inline void set_TrueString_1(String_t* value)
@@ -1015,7 +1015,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BOOLEAN_T779405450_H
+#endif // BOOLEAN_T3792624234_H
 #ifndef INTPTR_T_H
 #define INTPTR_T_H
 #ifdef __clang__
@@ -1061,8 +1061,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INTPTR_T_H
-#ifndef RUNTIMETYPEHANDLE_T649739477_H
-#define RUNTIMETYPEHANDLE_T649739477_H
+#ifndef RUNTIMETYPEHANDLE_T678907552_H
+#define RUNTIMETYPEHANDLE_T678907552_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1070,14 +1070,14 @@ public:
 #endif
 
 // System.RuntimeTypeHandle
-struct  RuntimeTypeHandle_t649739477 
+struct  RuntimeTypeHandle_t678907552 
 {
 public:
 	// System.IntPtr System.RuntimeTypeHandle::value
 	intptr_t ___value_0;
 
 public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeTypeHandle_t649739477, ___value_0)); }
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeTypeHandle_t678907552, ___value_0)); }
 	inline intptr_t get_value_0() const { return ___value_0; }
 	inline intptr_t* get_address_of_value_0() { return &___value_0; }
 	inline void set_value_0(intptr_t value)
@@ -1089,9 +1089,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // RUNTIMETYPEHANDLE_T649739477_H
-#ifndef TRIGGER_T158113955_H
-#define TRIGGER_T158113955_H
+#endif // RUNTIMETYPEHANDLE_T678907552_H
+#ifndef TRIGGER_T378682028_H
+#define TRIGGER_T378682028_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1099,14 +1099,14 @@ public:
 #endif
 
 // UnityEngine.Analytics.AnalyticsTracker/Trigger
-struct  Trigger_t158113955 
+struct  Trigger_t378682028 
 {
 public:
 	// System.Int32 UnityEngine.Analytics.AnalyticsTracker/Trigger::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Trigger_t158113955, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(Trigger_t378682028, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -1118,9 +1118,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // TRIGGER_T158113955_H
-#ifndef OBJECT_T2044854715_H
-#define OBJECT_T2044854715_H
+#endif // TRIGGER_T378682028_H
+#ifndef OBJECT_T3436183766_H
+#define OBJECT_T3436183766_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1128,14 +1128,14 @@ public:
 #endif
 
 // UnityEngine.Object
-struct  Object_t2044854715  : public RuntimeObject
+struct  Object_t3436183766  : public RuntimeObject
 {
 public:
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
 
 public:
-	inline static int32_t get_offset_of_m_CachedPtr_0() { return static_cast<int32_t>(offsetof(Object_t2044854715, ___m_CachedPtr_0)); }
+	inline static int32_t get_offset_of_m_CachedPtr_0() { return static_cast<int32_t>(offsetof(Object_t3436183766, ___m_CachedPtr_0)); }
 	inline intptr_t get_m_CachedPtr_0() const { return ___m_CachedPtr_0; }
 	inline intptr_t* get_address_of_m_CachedPtr_0() { return &___m_CachedPtr_0; }
 	inline void set_m_CachedPtr_0(intptr_t value)
@@ -1144,14 +1144,14 @@ public:
 	}
 };
 
-struct Object_t2044854715_StaticFields
+struct Object_t3436183766_StaticFields
 {
 public:
 	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
 	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
 
 public:
-	inline static int32_t get_offset_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return static_cast<int32_t>(offsetof(Object_t2044854715_StaticFields, ___OffsetOfInstanceIDInCPlusPlusObject_1)); }
+	inline static int32_t get_offset_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return static_cast<int32_t>(offsetof(Object_t3436183766_StaticFields, ___OffsetOfInstanceIDInCPlusPlusObject_1)); }
 	inline int32_t get_OffsetOfInstanceIDInCPlusPlusObject_1() const { return ___OffsetOfInstanceIDInCPlusPlusObject_1; }
 	inline int32_t* get_address_of_OffsetOfInstanceIDInCPlusPlusObject_1() { return &___OffsetOfInstanceIDInCPlusPlusObject_1; }
 	inline void set_OffsetOfInstanceIDInCPlusPlusObject_1(int32_t value)
@@ -1164,18 +1164,18 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of UnityEngine.Object
-struct Object_t2044854715_marshaled_pinvoke
+struct Object_t3436183766_marshaled_pinvoke
 {
 	intptr_t ___m_CachedPtr_0;
 };
 // Native definition for COM marshalling of UnityEngine.Object
-struct Object_t2044854715_marshaled_com
+struct Object_t3436183766_marshaled_com
 {
 	intptr_t ___m_CachedPtr_0;
 };
-#endif // OBJECT_T2044854715_H
-#ifndef BINDINGFLAGS_T3691334206_H
-#define BINDINGFLAGS_T3691334206_H
+#endif // OBJECT_T3436183766_H
+#ifndef BINDINGFLAGS_T1319129015_H
+#define BINDINGFLAGS_T1319129015_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1183,14 +1183,14 @@ struct Object_t2044854715_marshaled_com
 #endif
 
 // System.Reflection.BindingFlags
-struct  BindingFlags_t3691334206 
+struct  BindingFlags_t1319129015 
 {
 public:
 	// System.Int32 System.Reflection.BindingFlags::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(BindingFlags_t3691334206, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(BindingFlags_t1319129015, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -1202,9 +1202,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BINDINGFLAGS_T3691334206_H
-#ifndef ANALYTICSRESULT_T601633405_H
-#define ANALYTICSRESULT_T601633405_H
+#endif // BINDINGFLAGS_T1319129015_H
+#ifndef ANALYTICSRESULT_T1376576462_H
+#define ANALYTICSRESULT_T1376576462_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1212,14 +1212,14 @@ public:
 #endif
 
 // UnityEngine.Analytics.AnalyticsResult
-struct  AnalyticsResult_t601633405 
+struct  AnalyticsResult_t1376576462 
 {
 public:
 	// System.Int32 UnityEngine.Analytics.AnalyticsResult::value__
 	int32_t ___value___1;
 
 public:
-	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(AnalyticsResult_t601633405, ___value___1)); }
+	inline static int32_t get_offset_of_value___1() { return static_cast<int32_t>(offsetof(AnalyticsResult_t1376576462, ___value___1)); }
 	inline int32_t get_value___1() const { return ___value___1; }
 	inline int32_t* get_address_of_value___1() { return &___value___1; }
 	inline void set_value___1(int32_t value)
@@ -1231,9 +1231,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // ANALYTICSRESULT_T601633405_H
-#ifndef COMPONENT_T3812019657_H
-#define COMPONENT_T3812019657_H
+#endif // ANALYTICSRESULT_T1376576462_H
+#ifndef COMPONENT_T767643829_H
+#define COMPONENT_T767643829_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1241,7 +1241,7 @@ public:
 #endif
 
 // UnityEngine.Component
-struct  Component_t3812019657  : public Object_t2044854715
+struct  Component_t767643829  : public Object_t3436183766
 {
 public:
 
@@ -1251,7 +1251,7 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // COMPONENT_T3812019657_H
+#endif // COMPONENT_T767643829_H
 #ifndef TYPE_T_H
 #define TYPE_T_H
 #ifdef __clang__
@@ -1265,13 +1265,13 @@ struct  Type_t  : public MemberInfo_t
 {
 public:
 	// System.RuntimeTypeHandle System.Type::_impl
-	RuntimeTypeHandle_t649739477  ____impl_1;
+	RuntimeTypeHandle_t678907552  ____impl_1;
 
 public:
 	inline static int32_t get_offset_of__impl_1() { return static_cast<int32_t>(offsetof(Type_t, ____impl_1)); }
-	inline RuntimeTypeHandle_t649739477  get__impl_1() const { return ____impl_1; }
-	inline RuntimeTypeHandle_t649739477 * get_address_of__impl_1() { return &____impl_1; }
-	inline void set__impl_1(RuntimeTypeHandle_t649739477  value)
+	inline RuntimeTypeHandle_t678907552  get__impl_1() const { return ____impl_1; }
+	inline RuntimeTypeHandle_t678907552 * get_address_of__impl_1() { return &____impl_1; }
+	inline void set__impl_1(RuntimeTypeHandle_t678907552  value)
 	{
 		____impl_1 = value;
 	}
@@ -1283,13 +1283,13 @@ public:
 	// System.Char System.Type::Delimiter
 	Il2CppChar ___Delimiter_2;
 	// System.Type[] System.Type::EmptyTypes
-	TypeU5BU5D_t1943319643* ___EmptyTypes_3;
+	TypeU5BU5D_t375270461* ___EmptyTypes_3;
 	// System.Reflection.MemberFilter System.Type::FilterAttribute
-	MemberFilter_t2993436455 * ___FilterAttribute_4;
+	MemberFilter_t3099766646 * ___FilterAttribute_4;
 	// System.Reflection.MemberFilter System.Type::FilterName
-	MemberFilter_t2993436455 * ___FilterName_5;
+	MemberFilter_t3099766646 * ___FilterName_5;
 	// System.Reflection.MemberFilter System.Type::FilterNameIgnoreCase
-	MemberFilter_t2993436455 * ___FilterNameIgnoreCase_6;
+	MemberFilter_t3099766646 * ___FilterNameIgnoreCase_6;
 	// System.Object System.Type::Missing
 	RuntimeObject * ___Missing_7;
 
@@ -1303,36 +1303,36 @@ public:
 	}
 
 	inline static int32_t get_offset_of_EmptyTypes_3() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___EmptyTypes_3)); }
-	inline TypeU5BU5D_t1943319643* get_EmptyTypes_3() const { return ___EmptyTypes_3; }
-	inline TypeU5BU5D_t1943319643** get_address_of_EmptyTypes_3() { return &___EmptyTypes_3; }
-	inline void set_EmptyTypes_3(TypeU5BU5D_t1943319643* value)
+	inline TypeU5BU5D_t375270461* get_EmptyTypes_3() const { return ___EmptyTypes_3; }
+	inline TypeU5BU5D_t375270461** get_address_of_EmptyTypes_3() { return &___EmptyTypes_3; }
+	inline void set_EmptyTypes_3(TypeU5BU5D_t375270461* value)
 	{
 		___EmptyTypes_3 = value;
 		Il2CppCodeGenWriteBarrier((&___EmptyTypes_3), value);
 	}
 
 	inline static int32_t get_offset_of_FilterAttribute_4() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterAttribute_4)); }
-	inline MemberFilter_t2993436455 * get_FilterAttribute_4() const { return ___FilterAttribute_4; }
-	inline MemberFilter_t2993436455 ** get_address_of_FilterAttribute_4() { return &___FilterAttribute_4; }
-	inline void set_FilterAttribute_4(MemberFilter_t2993436455 * value)
+	inline MemberFilter_t3099766646 * get_FilterAttribute_4() const { return ___FilterAttribute_4; }
+	inline MemberFilter_t3099766646 ** get_address_of_FilterAttribute_4() { return &___FilterAttribute_4; }
+	inline void set_FilterAttribute_4(MemberFilter_t3099766646 * value)
 	{
 		___FilterAttribute_4 = value;
 		Il2CppCodeGenWriteBarrier((&___FilterAttribute_4), value);
 	}
 
 	inline static int32_t get_offset_of_FilterName_5() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterName_5)); }
-	inline MemberFilter_t2993436455 * get_FilterName_5() const { return ___FilterName_5; }
-	inline MemberFilter_t2993436455 ** get_address_of_FilterName_5() { return &___FilterName_5; }
-	inline void set_FilterName_5(MemberFilter_t2993436455 * value)
+	inline MemberFilter_t3099766646 * get_FilterName_5() const { return ___FilterName_5; }
+	inline MemberFilter_t3099766646 ** get_address_of_FilterName_5() { return &___FilterName_5; }
+	inline void set_FilterName_5(MemberFilter_t3099766646 * value)
 	{
 		___FilterName_5 = value;
 		Il2CppCodeGenWriteBarrier((&___FilterName_5), value);
 	}
 
 	inline static int32_t get_offset_of_FilterNameIgnoreCase_6() { return static_cast<int32_t>(offsetof(Type_t_StaticFields, ___FilterNameIgnoreCase_6)); }
-	inline MemberFilter_t2993436455 * get_FilterNameIgnoreCase_6() const { return ___FilterNameIgnoreCase_6; }
-	inline MemberFilter_t2993436455 ** get_address_of_FilterNameIgnoreCase_6() { return &___FilterNameIgnoreCase_6; }
-	inline void set_FilterNameIgnoreCase_6(MemberFilter_t2993436455 * value)
+	inline MemberFilter_t3099766646 * get_FilterNameIgnoreCase_6() const { return ___FilterNameIgnoreCase_6; }
+	inline MemberFilter_t3099766646 ** get_address_of_FilterNameIgnoreCase_6() { return &___FilterNameIgnoreCase_6; }
+	inline void set_FilterNameIgnoreCase_6(MemberFilter_t3099766646 * value)
 	{
 		___FilterNameIgnoreCase_6 = value;
 		Il2CppCodeGenWriteBarrier((&___FilterNameIgnoreCase_6), value);
@@ -1352,8 +1352,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // TYPE_T_H
-#ifndef BEHAVIOUR_T4214950403_H
-#define BEHAVIOUR_T4214950403_H
+#ifndef BEHAVIOUR_T3395807584_H
+#define BEHAVIOUR_T3395807584_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1361,7 +1361,7 @@ public:
 #endif
 
 // UnityEngine.Behaviour
-struct  Behaviour_t4214950403  : public Component_t3812019657
+struct  Behaviour_t3395807584  : public Component_t767643829
 {
 public:
 
@@ -1371,9 +1371,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // BEHAVIOUR_T4214950403_H
-#ifndef MONOBEHAVIOUR_T2457110670_H
-#define MONOBEHAVIOUR_T2457110670_H
+#endif // BEHAVIOUR_T3395807584_H
+#ifndef MONOBEHAVIOUR_T3068446559_H
+#define MONOBEHAVIOUR_T3068446559_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1381,7 +1381,7 @@ public:
 #endif
 
 // UnityEngine.MonoBehaviour
-struct  MonoBehaviour_t2457110670  : public Behaviour_t4214950403
+struct  MonoBehaviour_t3068446559  : public Behaviour_t3395807584
 {
 public:
 
@@ -1391,9 +1391,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // MONOBEHAVIOUR_T2457110670_H
-#ifndef ANALYTICSTRACKER_T1212478834_H
-#define ANALYTICSTRACKER_T1212478834_H
+#endif // MONOBEHAVIOUR_T3068446559_H
+#ifndef ANALYTICSTRACKER_T3341670259_H
+#define ANALYTICSTRACKER_T3341670259_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -1401,22 +1401,22 @@ public:
 #endif
 
 // UnityEngine.Analytics.AnalyticsTracker
-struct  AnalyticsTracker_t1212478834  : public MonoBehaviour_t2457110670
+struct  AnalyticsTracker_t3341670259  : public MonoBehaviour_t3068446559
 {
 public:
 	// System.String UnityEngine.Analytics.AnalyticsTracker::m_EventName
 	String_t* ___m_EventName_2;
 	// System.Collections.Generic.Dictionary`2<System.String,System.Object> UnityEngine.Analytics.AnalyticsTracker::m_Dict
-	Dictionary_2_t2034629176 * ___m_Dict_3;
+	Dictionary_2_t362116922 * ___m_Dict_3;
 	// System.Int32 UnityEngine.Analytics.AnalyticsTracker::m_PrevDictHash
 	int32_t ___m_PrevDictHash_4;
 	// UnityEngine.Analytics.TrackableProperty UnityEngine.Analytics.AnalyticsTracker::m_TrackableProperty
-	TrackableProperty_t81303949 * ___m_TrackableProperty_5;
+	TrackableProperty_t2848271658 * ___m_TrackableProperty_5;
 	// UnityEngine.Analytics.AnalyticsTracker/Trigger UnityEngine.Analytics.AnalyticsTracker::m_Trigger
 	int32_t ___m_Trigger_6;
 
 public:
-	inline static int32_t get_offset_of_m_EventName_2() { return static_cast<int32_t>(offsetof(AnalyticsTracker_t1212478834, ___m_EventName_2)); }
+	inline static int32_t get_offset_of_m_EventName_2() { return static_cast<int32_t>(offsetof(AnalyticsTracker_t3341670259, ___m_EventName_2)); }
 	inline String_t* get_m_EventName_2() const { return ___m_EventName_2; }
 	inline String_t** get_address_of_m_EventName_2() { return &___m_EventName_2; }
 	inline void set_m_EventName_2(String_t* value)
@@ -1425,16 +1425,16 @@ public:
 		Il2CppCodeGenWriteBarrier((&___m_EventName_2), value);
 	}
 
-	inline static int32_t get_offset_of_m_Dict_3() { return static_cast<int32_t>(offsetof(AnalyticsTracker_t1212478834, ___m_Dict_3)); }
-	inline Dictionary_2_t2034629176 * get_m_Dict_3() const { return ___m_Dict_3; }
-	inline Dictionary_2_t2034629176 ** get_address_of_m_Dict_3() { return &___m_Dict_3; }
-	inline void set_m_Dict_3(Dictionary_2_t2034629176 * value)
+	inline static int32_t get_offset_of_m_Dict_3() { return static_cast<int32_t>(offsetof(AnalyticsTracker_t3341670259, ___m_Dict_3)); }
+	inline Dictionary_2_t362116922 * get_m_Dict_3() const { return ___m_Dict_3; }
+	inline Dictionary_2_t362116922 ** get_address_of_m_Dict_3() { return &___m_Dict_3; }
+	inline void set_m_Dict_3(Dictionary_2_t362116922 * value)
 	{
 		___m_Dict_3 = value;
 		Il2CppCodeGenWriteBarrier((&___m_Dict_3), value);
 	}
 
-	inline static int32_t get_offset_of_m_PrevDictHash_4() { return static_cast<int32_t>(offsetof(AnalyticsTracker_t1212478834, ___m_PrevDictHash_4)); }
+	inline static int32_t get_offset_of_m_PrevDictHash_4() { return static_cast<int32_t>(offsetof(AnalyticsTracker_t3341670259, ___m_PrevDictHash_4)); }
 	inline int32_t get_m_PrevDictHash_4() const { return ___m_PrevDictHash_4; }
 	inline int32_t* get_address_of_m_PrevDictHash_4() { return &___m_PrevDictHash_4; }
 	inline void set_m_PrevDictHash_4(int32_t value)
@@ -1442,16 +1442,16 @@ public:
 		___m_PrevDictHash_4 = value;
 	}
 
-	inline static int32_t get_offset_of_m_TrackableProperty_5() { return static_cast<int32_t>(offsetof(AnalyticsTracker_t1212478834, ___m_TrackableProperty_5)); }
-	inline TrackableProperty_t81303949 * get_m_TrackableProperty_5() const { return ___m_TrackableProperty_5; }
-	inline TrackableProperty_t81303949 ** get_address_of_m_TrackableProperty_5() { return &___m_TrackableProperty_5; }
-	inline void set_m_TrackableProperty_5(TrackableProperty_t81303949 * value)
+	inline static int32_t get_offset_of_m_TrackableProperty_5() { return static_cast<int32_t>(offsetof(AnalyticsTracker_t3341670259, ___m_TrackableProperty_5)); }
+	inline TrackableProperty_t2848271658 * get_m_TrackableProperty_5() const { return ___m_TrackableProperty_5; }
+	inline TrackableProperty_t2848271658 ** get_address_of_m_TrackableProperty_5() { return &___m_TrackableProperty_5; }
+	inline void set_m_TrackableProperty_5(TrackableProperty_t2848271658 * value)
 	{
 		___m_TrackableProperty_5 = value;
 		Il2CppCodeGenWriteBarrier((&___m_TrackableProperty_5), value);
 	}
 
-	inline static int32_t get_offset_of_m_Trigger_6() { return static_cast<int32_t>(offsetof(AnalyticsTracker_t1212478834, ___m_Trigger_6)); }
+	inline static int32_t get_offset_of_m_Trigger_6() { return static_cast<int32_t>(offsetof(AnalyticsTracker_t3341670259, ___m_Trigger_6)); }
 	inline int32_t get_m_Trigger_6() const { return ___m_Trigger_6; }
 	inline int32_t* get_address_of_m_Trigger_6() { return &___m_Trigger_6; }
 	inline void set_m_Trigger_6(int32_t value)
@@ -1463,9 +1463,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // ANALYTICSTRACKER_T1212478834_H
+#endif // ANALYTICSTRACKER_T3341670259_H
 // System.String[]
-struct StringU5BU5D_t62953633  : public RuntimeArray
+struct StringU5BU5D_t1613568946  : public RuntimeArray
 {
 public:
 	ALIGN_FIELD (8) String_t* m_Items[1];
@@ -1502,7 +1502,7 @@ public:
 	}
 };
 // System.Char[]
-struct CharU5BU5D_t3152716171  : public RuntimeArray
+struct CharU5BU5D_t757589385  : public RuntimeArray
 {
 public:
 	ALIGN_FIELD (8) Il2CppChar m_Items[1];
@@ -1537,7 +1537,7 @@ public:
 	}
 };
 // System.Object[]
-struct ObjectU5BU5D_t3094973379  : public RuntimeArray
+struct ObjectU5BU5D_t898615829  : public RuntimeArray
 {
 public:
 	ALIGN_FIELD (8) RuntimeObject * m_Items[1];
@@ -1576,105 +1576,105 @@ public:
 
 
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::.ctor()
-extern "C"  void Dictionary_2__ctor_m3444458515_gshared (Dictionary_2_t771681626 * __this, const RuntimeMethod* method);
+extern "C"  void Dictionary_2__ctor_m2762692316_gshared (Dictionary_2_t3942131101 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::Clear()
-extern "C"  void Dictionary_2_Clear_m2488689260_gshared (Dictionary_2_t771681626 * __this, const RuntimeMethod* method);
+extern "C"  void Dictionary_2_Clear_m3205510834_gshared (Dictionary_2_t3942131101 * __this, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.List`1<System.Object>::get_Count()
-extern "C"  int32_t List_1_get_Count_m3792044030_gshared (List_1_t2804246631 * __this, const RuntimeMethod* method);
+extern "C"  int32_t List_1_get_Count_m1445845947_gshared (List_1_t2180053413 * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.List`1<System.Object>::get_Item(System.Int32)
-extern "C"  RuntimeObject * List_1_get_Item_m2845360682_gshared (List_1_t2804246631 * __this, int32_t p0, const RuntimeMethod* method);
+extern "C"  RuntimeObject * List_1_get_Item_m1693467719_gshared (List_1_t2180053413 * __this, int32_t p0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Object,System.Object>::set_Item(!0,!1)
-extern "C"  void Dictionary_2_set_Item_m1641861420_gshared (Dictionary_2_t771681626 * __this, RuntimeObject * p0, RuntimeObject * p1, const RuntimeMethod* method);
+extern "C"  void Dictionary_2_set_Item_m2199847809_gshared (Dictionary_2_t3942131101 * __this, RuntimeObject * p0, RuntimeObject * p1, const RuntimeMethod* method);
 // System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<System.Object>::GetEnumerator()
-extern "C"  Enumerator_t3940464299  List_1_GetEnumerator_m1528274931_gshared (List_1_t2804246631 * __this, const RuntimeMethod* method);
+extern "C"  Enumerator_t2137753599  List_1_GetEnumerator_m2151609887_gshared (List_1_t2180053413 * __this, const RuntimeMethod* method);
 // !0 System.Collections.Generic.List`1/Enumerator<System.Object>::get_Current()
-extern "C"  RuntimeObject * Enumerator_get_Current_m3303578579_gshared (Enumerator_t3940464299 * __this, const RuntimeMethod* method);
+extern "C"  RuntimeObject * Enumerator_get_Current_m1608521659_gshared (Enumerator_t2137753599 * __this, const RuntimeMethod* method);
 // System.Boolean System.Collections.Generic.List`1/Enumerator<System.Object>::MoveNext()
-extern "C"  bool Enumerator_MoveNext_m2966277426_gshared (Enumerator_t3940464299 * __this, const RuntimeMethod* method);
+extern "C"  bool Enumerator_MoveNext_m394313665_gshared (Enumerator_t2137753599 * __this, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.List`1/Enumerator<System.Object>::Dispose()
-extern "C"  void Enumerator_Dispose_m3749402417_gshared (Enumerator_t3940464299 * __this, const RuntimeMethod* method);
+extern "C"  void Enumerator_Dispose_m1960515566_gshared (Enumerator_t2137753599 * __this, const RuntimeMethod* method);
 
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::.ctor()
-#define Dictionary_2__ctor_m1788618493(__this, method) ((  void (*) (Dictionary_2_t2034629176 *, const RuntimeMethod*))Dictionary_2__ctor_m3444458515_gshared)(__this, method)
+#define Dictionary_2__ctor_m4255191166(__this, method) ((  void (*) (Dictionary_2_t362116922 *, const RuntimeMethod*))Dictionary_2__ctor_m2762692316_gshared)(__this, method)
 // System.Void UnityEngine.Analytics.TrackableProperty::.ctor()
-extern "C"  void TrackableProperty__ctor_m1072570974 (TrackableProperty_t81303949 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void TrackableProperty__ctor_m4142682887 (TrackableProperty_t2848271658 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.MonoBehaviour::.ctor()
-extern "C"  void MonoBehaviour__ctor_m3842483771 (MonoBehaviour_t2457110670 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void MonoBehaviour__ctor_m2850838813 (MonoBehaviour_t3068446559 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Analytics.AnalyticsTracker::TriggerEvent()
-extern "C"  void AnalyticsTracker_TriggerEvent_m3102843922 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void AnalyticsTracker_TriggerEvent_m4255197753 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Analytics.AnalyticsTracker::BuildParameters()
-extern "C"  void AnalyticsTracker_BuildParameters_m3846687863 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void AnalyticsTracker_BuildParameters_m2316480634 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Analytics.AnalyticsTracker::SendEvent()
-extern "C"  void AnalyticsTracker_SendEvent_m1984804157 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void AnalyticsTracker_SendEvent_m2415033771 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Analytics.AnalyticsResult UnityEngine.Analytics.Analytics::CustomEvent(System.String,System.Collections.Generic.IDictionary`2<System.String,System.Object>)
-extern "C"  int32_t Analytics_CustomEvent_m2238406003 (RuntimeObject * __this /* static, unused */, String_t* p0, RuntimeObject* p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  int32_t Analytics_CustomEvent_m3337691689 (RuntimeObject * __this /* static, unused */, String_t* p0, RuntimeObject* p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::Clear()
-#define Dictionary_2_Clear_m821523451(__this, method) ((  void (*) (Dictionary_2_t2034629176 *, const RuntimeMethod*))Dictionary_2_Clear_m2488689260_gshared)(__this, method)
+#define Dictionary_2_Clear_m1210583048(__this, method) ((  void (*) (Dictionary_2_t362116922 *, const RuntimeMethod*))Dictionary_2_Clear_m3205510834_gshared)(__this, method)
 // System.Collections.Generic.List`1<UnityEngine.Analytics.TrackableProperty/FieldWithTarget> UnityEngine.Analytics.TrackableProperty::get_fields()
-extern "C"  List_1_t2745949437 * TrackableProperty_get_fields_m930285071 (TrackableProperty_t81303949 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  List_1_t904705598 * TrackableProperty_get_fields_m2474129188 (TrackableProperty_t2848271658 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.Analytics.TrackableProperty/FieldWithTarget>::get_Count()
-#define List_1_get_Count_m3382052130(__this, method) ((  int32_t (*) (List_1_t2745949437 *, const RuntimeMethod*))List_1_get_Count_m3792044030_gshared)(__this, method)
+#define List_1_get_Count_m4293077002(__this, method) ((  int32_t (*) (List_1_t904705598 *, const RuntimeMethod*))List_1_get_Count_m1445845947_gshared)(__this, method)
 // !0 System.Collections.Generic.List`1<UnityEngine.Analytics.TrackableProperty/FieldWithTarget>::get_Item(System.Int32)
-#define List_1_get_Item_m2344570013(__this, p0, method) ((  FieldWithTarget_t1786615420 * (*) (List_1_t2745949437 *, int32_t, const RuntimeMethod*))List_1_get_Item_m2845360682_gshared)(__this, p0, method)
+#define List_1_get_Item_m2571343293(__this, p0, method) ((  FieldWithTarget_t3110532373 * (*) (List_1_t904705598 *, int32_t, const RuntimeMethod*))List_1_get_Item_m1693467719_gshared)(__this, p0, method)
 // UnityEngine.Object UnityEngine.Analytics.TrackableProperty/FieldWithTarget::get_target()
-extern "C"  Object_t2044854715 * FieldWithTarget_get_target_m2986283319 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  Object_t3436183766 * FieldWithTarget_get_target_m3652497457 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object,UnityEngine.Object)
-extern "C"  bool Object_op_Inequality_m1193611074 (RuntimeObject * __this /* static, unused */, Object_t2044854715 * p0, Object_t2044854715 * p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Object_op_Inequality_m2386478406 (RuntimeObject * __this /* static, unused */, Object_t3436183766 * p0, Object_t3436183766 * p1, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Analytics.TrackableProperty/FieldWithTarget::get_doStatic()
-extern "C"  bool FieldWithTarget_get_doStatic_m1873497179 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool FieldWithTarget_get_doStatic_m2497819018 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.Analytics.TrackableProperty/FieldWithTarget::GetValue()
-extern "C"  RuntimeObject * FieldWithTarget_GetValue_m395284854 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  RuntimeObject * FieldWithTarget_GetValue_m3438246431 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.Analytics.TrackableProperty/FieldWithTarget::get_paramName()
-extern "C"  String_t* FieldWithTarget_get_paramName_m3562994617 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  String_t* FieldWithTarget_get_paramName_m840328589 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Generic.Dictionary`2<System.String,System.Object>::set_Item(!0,!1)
-#define Dictionary_2_set_Item_m69263574(__this, p0, p1, method) ((  void (*) (Dictionary_2_t2034629176 *, String_t*, RuntimeObject *, const RuntimeMethod*))Dictionary_2_set_Item_m1641861420_gshared)(__this, p0, p1, method)
+#define Dictionary_2_set_Item_m1241044309(__this, p0, p1, method) ((  void (*) (Dictionary_2_t362116922 *, String_t*, RuntimeObject *, const RuntimeMethod*))Dictionary_2_set_Item_m2199847809_gshared)(__this, p0, p1, method)
 // System.Void System.Object::.ctor()
-extern "C"  void Object__ctor_m3426658289 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  void Object__ctor_m3594683682 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1/Enumerator<!0> System.Collections.Generic.List`1<UnityEngine.Analytics.TrackableProperty/FieldWithTarget>::GetEnumerator()
-#define List_1_GetEnumerator_m2874140041(__this, method) ((  Enumerator_t3882167105  (*) (List_1_t2745949437 *, const RuntimeMethod*))List_1_GetEnumerator_m1528274931_gshared)(__this, method)
+#define List_1_GetEnumerator_m4167409269(__this, method) ((  Enumerator_t862405784  (*) (List_1_t904705598 *, const RuntimeMethod*))List_1_GetEnumerator_m2151609887_gshared)(__this, method)
 // !0 System.Collections.Generic.List`1/Enumerator<UnityEngine.Analytics.TrackableProperty/FieldWithTarget>::get_Current()
-#define Enumerator_get_Current_m1128306862(__this, method) ((  FieldWithTarget_t1786615420 * (*) (Enumerator_t3882167105 *, const RuntimeMethod*))Enumerator_get_Current_m3303578579_gshared)(__this, method)
+#define Enumerator_get_Current_m1132395548(__this, method) ((  FieldWithTarget_t3110532373 * (*) (Enumerator_t862405784 *, const RuntimeMethod*))Enumerator_get_Current_m1608521659_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Analytics.TrackableProperty/FieldWithTarget>::MoveNext()
-#define Enumerator_MoveNext_m3575150980(__this, method) ((  bool (*) (Enumerator_t3882167105 *, const RuntimeMethod*))Enumerator_MoveNext_m2966277426_gshared)(__this, method)
+#define Enumerator_MoveNext_m3146334956(__this, method) ((  bool (*) (Enumerator_t862405784 *, const RuntimeMethod*))Enumerator_MoveNext_m394313665_gshared)(__this, method)
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Analytics.TrackableProperty/FieldWithTarget>::Dispose()
-#define Enumerator_Dispose_m1756701881(__this, method) ((  void (*) (Enumerator_t3882167105 *, const RuntimeMethod*))Enumerator_Dispose_m3749402417_gshared)(__this, method)
+#define Enumerator_Dispose_m3563227121(__this, method) ((  void (*) (Enumerator_t862405784 *, const RuntimeMethod*))Enumerator_Dispose_m1960515566_gshared)(__this, method)
 // System.String[] System.String::Split(System.Char[])
-extern "C"  StringU5BU5D_t62953633* String_Split_m3391547448 (String_t* __this, CharU5BU5D_t3152716171* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  StringU5BU5D_t1613568946* String_Split_m3680386253 (String_t* __this, CharU5BU5D_t757589385* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Object::GetType()
-extern "C"  Type_t * Object_GetType_m889015516 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  Type_t * Object_GetType_m278863354 (RuntimeObject * __this, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.PropertyInfo System.Type::GetProperty(System.String)
-extern "C"  PropertyInfo_t * Type_GetProperty_m1944809943 (Type_t * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  PropertyInfo_t * Type_GetProperty_m1092033647 (Type_t * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.FieldInfo System.Type::GetField(System.String)
-extern "C"  FieldInfo_t * Type_GetField_m218274886 (Type_t * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
+extern "C"  FieldInfo_t * Type_GetField_m2924057402 (Type_t * __this, String_t* p0, const RuntimeMethod* method) IL2CPP_METHOD_ATTR;
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void UnityEngine.Analytics.AnalyticsTracker::.ctor()
-extern "C"  void AnalyticsTracker__ctor_m383217747 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker__ctor_m2079696092 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (AnalyticsTracker__ctor_m383217747_MetadataUsageId);
+		il2cpp_codegen_initialize_method (AnalyticsTracker__ctor_m2079696092_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		Dictionary_2_t2034629176 * L_0 = (Dictionary_2_t2034629176 *)il2cpp_codegen_object_new(Dictionary_2_t2034629176_il2cpp_TypeInfo_var);
-		Dictionary_2__ctor_m1788618493(L_0, /*hidden argument*/Dictionary_2__ctor_m1788618493_RuntimeMethod_var);
+		Dictionary_2_t362116922 * L_0 = (Dictionary_2_t362116922 *)il2cpp_codegen_object_new(Dictionary_2_t362116922_il2cpp_TypeInfo_var);
+		Dictionary_2__ctor_m4255191166(L_0, /*hidden argument*/Dictionary_2__ctor_m4255191166_RuntimeMethod_var);
 		__this->set_m_Dict_3(L_0);
 		__this->set_m_PrevDictHash_4(0);
-		TrackableProperty_t81303949 * L_1 = (TrackableProperty_t81303949 *)il2cpp_codegen_object_new(TrackableProperty_t81303949_il2cpp_TypeInfo_var);
-		TrackableProperty__ctor_m1072570974(L_1, /*hidden argument*/NULL);
+		TrackableProperty_t2848271658 * L_1 = (TrackableProperty_t2848271658 *)il2cpp_codegen_object_new(TrackableProperty_t2848271658_il2cpp_TypeInfo_var);
+		TrackableProperty__ctor_m4142682887(L_1, /*hidden argument*/NULL);
 		__this->set_m_TrackableProperty_5(L_1);
 		__this->set_m_Trigger_6(0);
-		MonoBehaviour__ctor_m3842483771(__this, /*hidden argument*/NULL);
+		MonoBehaviour__ctor_m2850838813(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String UnityEngine.Analytics.AnalyticsTracker::get_eventName()
-extern "C"  String_t* AnalyticsTracker_get_eventName_m2191072845 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  String_t* AnalyticsTracker_get_eventName_m64724233 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
 	String_t* V_0 = NULL;
 	{
@@ -1690,7 +1690,7 @@ IL_000d:
 	}
 }
 // System.Void UnityEngine.Analytics.AnalyticsTracker::set_eventName(System.String)
-extern "C"  void AnalyticsTracker_set_eventName_m2250751734 (AnalyticsTracker_t1212478834 * __this, String_t* ___value0, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker_set_eventName_m3553852493 (AnalyticsTracker_t3341670259 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
 	{
 		String_t* L_0 = ___value0;
@@ -1699,32 +1699,32 @@ extern "C"  void AnalyticsTracker_set_eventName_m2250751734 (AnalyticsTracker_t1
 	}
 }
 // UnityEngine.Analytics.TrackableProperty UnityEngine.Analytics.AnalyticsTracker::get_TP()
-extern "C"  TrackableProperty_t81303949 * AnalyticsTracker_get_TP_m2977843505 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  TrackableProperty_t2848271658 * AnalyticsTracker_get_TP_m2767606535 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
-	TrackableProperty_t81303949 * V_0 = NULL;
+	TrackableProperty_t2848271658 * V_0 = NULL;
 	{
-		TrackableProperty_t81303949 * L_0 = __this->get_m_TrackableProperty_5();
+		TrackableProperty_t2848271658 * L_0 = __this->get_m_TrackableProperty_5();
 		V_0 = L_0;
 		goto IL_000d;
 	}
 
 IL_000d:
 	{
-		TrackableProperty_t81303949 * L_1 = V_0;
+		TrackableProperty_t2848271658 * L_1 = V_0;
 		return L_1;
 	}
 }
 // System.Void UnityEngine.Analytics.AnalyticsTracker::set_TP(UnityEngine.Analytics.TrackableProperty)
-extern "C"  void AnalyticsTracker_set_TP_m4006909582 (AnalyticsTracker_t1212478834 * __this, TrackableProperty_t81303949 * ___value0, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker_set_TP_m222881849 (AnalyticsTracker_t3341670259 * __this, TrackableProperty_t2848271658 * ___value0, const RuntimeMethod* method)
 {
 	{
-		TrackableProperty_t81303949 * L_0 = ___value0;
+		TrackableProperty_t2848271658 * L_0 = ___value0;
 		__this->set_m_TrackableProperty_5(L_0);
 		return;
 	}
 }
 // System.Void UnityEngine.Analytics.AnalyticsTracker::Awake()
-extern "C"  void AnalyticsTracker_Awake_m466301401 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker_Awake_m4058760723 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
 	{
 		int32_t L_0 = __this->get_m_Trigger_6();
@@ -1734,7 +1734,7 @@ extern "C"  void AnalyticsTracker_Awake_m466301401 (AnalyticsTracker_t1212478834
 		}
 	}
 	{
-		AnalyticsTracker_TriggerEvent_m3102843922(__this, /*hidden argument*/NULL);
+		AnalyticsTracker_TriggerEvent_m4255197753(__this, /*hidden argument*/NULL);
 	}
 
 IL_0015:
@@ -1743,7 +1743,7 @@ IL_0015:
 	}
 }
 // System.Void UnityEngine.Analytics.AnalyticsTracker::Start()
-extern "C"  void AnalyticsTracker_Start_m1002025002 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker_Start_m4115123877 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
 	{
 		int32_t L_0 = __this->get_m_Trigger_6();
@@ -1753,7 +1753,7 @@ extern "C"  void AnalyticsTracker_Start_m1002025002 (AnalyticsTracker_t121247883
 		}
 	}
 	{
-		AnalyticsTracker_TriggerEvent_m3102843922(__this, /*hidden argument*/NULL);
+		AnalyticsTracker_TriggerEvent_m4255197753(__this, /*hidden argument*/NULL);
 	}
 
 IL_0015:
@@ -1762,7 +1762,7 @@ IL_0015:
 	}
 }
 // System.Void UnityEngine.Analytics.AnalyticsTracker::OnEnable()
-extern "C"  void AnalyticsTracker_OnEnable_m3403910241 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker_OnEnable_m2511810817 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
 	{
 		int32_t L_0 = __this->get_m_Trigger_6();
@@ -1772,7 +1772,7 @@ extern "C"  void AnalyticsTracker_OnEnable_m3403910241 (AnalyticsTracker_t121247
 		}
 	}
 	{
-		AnalyticsTracker_TriggerEvent_m3102843922(__this, /*hidden argument*/NULL);
+		AnalyticsTracker_TriggerEvent_m4255197753(__this, /*hidden argument*/NULL);
 	}
 
 IL_0015:
@@ -1781,7 +1781,7 @@ IL_0015:
 	}
 }
 // System.Void UnityEngine.Analytics.AnalyticsTracker::OnDisable()
-extern "C"  void AnalyticsTracker_OnDisable_m3379389398 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker_OnDisable_m3128011263 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
 	{
 		int32_t L_0 = __this->get_m_Trigger_6();
@@ -1791,7 +1791,7 @@ extern "C"  void AnalyticsTracker_OnDisable_m3379389398 (AnalyticsTracker_t12124
 		}
 	}
 	{
-		AnalyticsTracker_TriggerEvent_m3102843922(__this, /*hidden argument*/NULL);
+		AnalyticsTracker_TriggerEvent_m4255197753(__this, /*hidden argument*/NULL);
 	}
 
 IL_0015:
@@ -1800,7 +1800,7 @@ IL_0015:
 	}
 }
 // System.Void UnityEngine.Analytics.AnalyticsTracker::OnApplicationPause()
-extern "C"  void AnalyticsTracker_OnApplicationPause_m2466550292 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker_OnApplicationPause_m483739353 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
 	{
 		int32_t L_0 = __this->get_m_Trigger_6();
@@ -1810,7 +1810,7 @@ extern "C"  void AnalyticsTracker_OnApplicationPause_m2466550292 (AnalyticsTrack
 		}
 	}
 	{
-		AnalyticsTracker_TriggerEvent_m3102843922(__this, /*hidden argument*/NULL);
+		AnalyticsTracker_TriggerEvent_m4255197753(__this, /*hidden argument*/NULL);
 	}
 
 IL_0015:
@@ -1819,7 +1819,7 @@ IL_0015:
 	}
 }
 // System.Void UnityEngine.Analytics.AnalyticsTracker::OnDestroy()
-extern "C"  void AnalyticsTracker_OnDestroy_m1423489778 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker_OnDestroy_m1471286079 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
 	{
 		int32_t L_0 = __this->get_m_Trigger_6();
@@ -1829,7 +1829,7 @@ extern "C"  void AnalyticsTracker_OnDestroy_m1423489778 (AnalyticsTracker_t12124
 		}
 	}
 	{
-		AnalyticsTracker_TriggerEvent_m3102843922(__this, /*hidden argument*/NULL);
+		AnalyticsTracker_TriggerEvent_m4255197753(__this, /*hidden argument*/NULL);
 	}
 
 IL_0015:
@@ -1838,40 +1838,40 @@ IL_0015:
 	}
 }
 // System.Void UnityEngine.Analytics.AnalyticsTracker::TriggerEvent()
-extern "C"  void AnalyticsTracker_TriggerEvent_m3102843922 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker_TriggerEvent_m4255197753 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
 	{
-		AnalyticsTracker_BuildParameters_m3846687863(__this, /*hidden argument*/NULL);
-		AnalyticsTracker_SendEvent_m1984804157(__this, /*hidden argument*/NULL);
+		AnalyticsTracker_BuildParameters_m2316480634(__this, /*hidden argument*/NULL);
+		AnalyticsTracker_SendEvent_m2415033771(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void UnityEngine.Analytics.AnalyticsTracker::SendEvent()
-extern "C"  void AnalyticsTracker_SendEvent_m1984804157 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker_SendEvent_m2415033771 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
 	{
 		String_t* L_0 = __this->get_m_EventName_2();
-		Dictionary_2_t2034629176 * L_1 = __this->get_m_Dict_3();
-		Analytics_CustomEvent_m2238406003(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
+		Dictionary_2_t362116922 * L_1 = __this->get_m_Dict_3();
+		Analytics_CustomEvent_m3337691689(NULL /*static, unused*/, L_0, L_1, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Void UnityEngine.Analytics.AnalyticsTracker::BuildParameters()
-extern "C"  void AnalyticsTracker_BuildParameters_m3846687863 (AnalyticsTracker_t1212478834 * __this, const RuntimeMethod* method)
+extern "C"  void AnalyticsTracker_BuildParameters_m2316480634 (AnalyticsTracker_t3341670259 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (AnalyticsTracker_BuildParameters_m3846687863_MetadataUsageId);
+		il2cpp_codegen_initialize_method (AnalyticsTracker_BuildParameters_m2316480634_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	int32_t V_2 = 0;
-	FieldWithTarget_t1786615420 * V_3 = NULL;
+	FieldWithTarget_t3110532373 * V_3 = NULL;
 	String_t* V_4 = NULL;
 	{
-		TrackableProperty_t81303949 * L_0 = __this->get_m_TrackableProperty_5();
+		TrackableProperty_t2848271658 * L_0 = __this->get_m_TrackableProperty_5();
 		NullCheck(L_0);
 		int32_t L_1 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_0);
 		V_0 = L_1;
@@ -1883,9 +1883,9 @@ extern "C"  void AnalyticsTracker_BuildParameters_m3846687863 (AnalyticsTracker_
 		}
 	}
 	{
-		Dictionary_2_t2034629176 * L_4 = __this->get_m_Dict_3();
+		Dictionary_2_t362116922 * L_4 = __this->get_m_Dict_3();
 		NullCheck(L_4);
-		Dictionary_2_Clear_m821523451(L_4, /*hidden argument*/Dictionary_2_Clear_m821523451_RuntimeMethod_var);
+		Dictionary_2_Clear_m1210583048(L_4, /*hidden argument*/Dictionary_2_Clear_m1210583048_RuntimeMethod_var);
 	}
 
 IL_0024:
@@ -1893,38 +1893,38 @@ IL_0024:
 		int32_t L_5 = V_0;
 		__this->set_m_PrevDictHash_4(L_5);
 		V_1 = 0;
-		TrackableProperty_t81303949 * L_6 = __this->get_m_TrackableProperty_5();
+		TrackableProperty_t2848271658 * L_6 = __this->get_m_TrackableProperty_5();
 		NullCheck(L_6);
-		List_1_t2745949437 * L_7 = TrackableProperty_get_fields_m930285071(L_6, /*hidden argument*/NULL);
+		List_1_t904705598 * L_7 = TrackableProperty_get_fields_m2474129188(L_6, /*hidden argument*/NULL);
 		NullCheck(L_7);
-		int32_t L_8 = List_1_get_Count_m3382052130(L_7, /*hidden argument*/List_1_get_Count_m3382052130_RuntimeMethod_var);
+		int32_t L_8 = List_1_get_Count_m4293077002(L_7, /*hidden argument*/List_1_get_Count_m4293077002_RuntimeMethod_var);
 		V_2 = L_8;
 		goto IL_0099;
 	}
 
 IL_0043:
 	{
-		TrackableProperty_t81303949 * L_9 = __this->get_m_TrackableProperty_5();
+		TrackableProperty_t2848271658 * L_9 = __this->get_m_TrackableProperty_5();
 		NullCheck(L_9);
-		List_1_t2745949437 * L_10 = TrackableProperty_get_fields_m930285071(L_9, /*hidden argument*/NULL);
+		List_1_t904705598 * L_10 = TrackableProperty_get_fields_m2474129188(L_9, /*hidden argument*/NULL);
 		int32_t L_11 = V_1;
 		NullCheck(L_10);
-		FieldWithTarget_t1786615420 * L_12 = List_1_get_Item_m2344570013(L_10, L_11, /*hidden argument*/List_1_get_Item_m2344570013_RuntimeMethod_var);
+		FieldWithTarget_t3110532373 * L_12 = List_1_get_Item_m2571343293(L_10, L_11, /*hidden argument*/List_1_get_Item_m2571343293_RuntimeMethod_var);
 		V_3 = L_12;
-		FieldWithTarget_t1786615420 * L_13 = V_3;
+		FieldWithTarget_t3110532373 * L_13 = V_3;
 		NullCheck(L_13);
-		Object_t2044854715 * L_14 = FieldWithTarget_get_target_m2986283319(L_13, /*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Object_t2044854715_il2cpp_TypeInfo_var);
-		bool L_15 = Object_op_Inequality_m1193611074(NULL /*static, unused*/, L_14, (Object_t2044854715 *)NULL, /*hidden argument*/NULL);
+		Object_t3436183766 * L_14 = FieldWithTarget_get_target_m3652497457(L_13, /*hidden argument*/NULL);
+		IL2CPP_RUNTIME_CLASS_INIT(Object_t3436183766_il2cpp_TypeInfo_var);
+		bool L_15 = Object_op_Inequality_m2386478406(NULL /*static, unused*/, L_14, (Object_t3436183766 *)NULL, /*hidden argument*/NULL);
 		if (L_15)
 		{
 			goto IL_0072;
 		}
 	}
 	{
-		FieldWithTarget_t1786615420 * L_16 = V_3;
+		FieldWithTarget_t3110532373 * L_16 = V_3;
 		NullCheck(L_16);
-		bool L_17 = FieldWithTarget_get_doStatic_m1873497179(L_16, /*hidden argument*/NULL);
+		bool L_17 = FieldWithTarget_get_doStatic_m2497819018(L_16, /*hidden argument*/NULL);
 		if (!L_17)
 		{
 			goto IL_0094;
@@ -1933,19 +1933,19 @@ IL_0043:
 
 IL_0072:
 	{
-		FieldWithTarget_t1786615420 * L_18 = V_3;
+		FieldWithTarget_t3110532373 * L_18 = V_3;
 		NullCheck(L_18);
-		RuntimeObject * L_19 = FieldWithTarget_GetValue_m395284854(L_18, /*hidden argument*/NULL);
+		RuntimeObject * L_19 = FieldWithTarget_GetValue_m3438246431(L_18, /*hidden argument*/NULL);
 		NullCheck(L_19);
 		String_t* L_20 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_19);
 		V_4 = L_20;
-		Dictionary_2_t2034629176 * L_21 = __this->get_m_Dict_3();
-		FieldWithTarget_t1786615420 * L_22 = V_3;
+		Dictionary_2_t362116922 * L_21 = __this->get_m_Dict_3();
+		FieldWithTarget_t3110532373 * L_22 = V_3;
 		NullCheck(L_22);
-		String_t* L_23 = FieldWithTarget_get_paramName_m3562994617(L_22, /*hidden argument*/NULL);
+		String_t* L_23 = FieldWithTarget_get_paramName_m840328589(L_22, /*hidden argument*/NULL);
 		String_t* L_24 = V_4;
 		NullCheck(L_21);
-		Dictionary_2_set_Item_m69263574(L_21, L_23, L_24, /*hidden argument*/Dictionary_2_set_Item_m69263574_RuntimeMethod_var);
+		Dictionary_2_set_Item_m1241044309(L_21, L_23, L_24, /*hidden argument*/Dictionary_2_set_Item_m1241044309_RuntimeMethod_var);
 	}
 
 IL_0094:
@@ -1968,63 +1968,63 @@ IL_0099:
 	}
 }
 // System.Void UnityEngine.Analytics.TrackableProperty::.ctor()
-extern "C"  void TrackableProperty__ctor_m1072570974 (TrackableProperty_t81303949 * __this, const RuntimeMethod* method)
+extern "C"  void TrackableProperty__ctor_m4142682887 (TrackableProperty_t2848271658 * __this, const RuntimeMethod* method)
 {
 	{
-		Object__ctor_m3426658289(__this, /*hidden argument*/NULL);
+		Object__ctor_m3594683682(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.Collections.Generic.List`1<UnityEngine.Analytics.TrackableProperty/FieldWithTarget> UnityEngine.Analytics.TrackableProperty::get_fields()
-extern "C"  List_1_t2745949437 * TrackableProperty_get_fields_m930285071 (TrackableProperty_t81303949 * __this, const RuntimeMethod* method)
+extern "C"  List_1_t904705598 * TrackableProperty_get_fields_m2474129188 (TrackableProperty_t2848271658 * __this, const RuntimeMethod* method)
 {
-	List_1_t2745949437 * V_0 = NULL;
+	List_1_t904705598 * V_0 = NULL;
 	{
-		List_1_t2745949437 * L_0 = __this->get_m_Fields_1();
+		List_1_t904705598 * L_0 = __this->get_m_Fields_1();
 		V_0 = L_0;
 		goto IL_000d;
 	}
 
 IL_000d:
 	{
-		List_1_t2745949437 * L_1 = V_0;
+		List_1_t904705598 * L_1 = V_0;
 		return L_1;
 	}
 }
 // System.Void UnityEngine.Analytics.TrackableProperty::set_fields(System.Collections.Generic.List`1<UnityEngine.Analytics.TrackableProperty/FieldWithTarget>)
-extern "C"  void TrackableProperty_set_fields_m1643709235 (TrackableProperty_t81303949 * __this, List_1_t2745949437 * ___value0, const RuntimeMethod* method)
+extern "C"  void TrackableProperty_set_fields_m3729742786 (TrackableProperty_t2848271658 * __this, List_1_t904705598 * ___value0, const RuntimeMethod* method)
 {
 	{
-		List_1_t2745949437 * L_0 = ___value0;
+		List_1_t904705598 * L_0 = ___value0;
 		__this->set_m_Fields_1(L_0);
 		return;
 	}
 }
 // System.Int32 UnityEngine.Analytics.TrackableProperty::GetHashCode()
-extern "C"  int32_t TrackableProperty_GetHashCode_m1276393618 (TrackableProperty_t81303949 * __this, const RuntimeMethod* method)
+extern "C"  int32_t TrackableProperty_GetHashCode_m2498938767 (TrackableProperty_t2848271658 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (TrackableProperty_GetHashCode_m1276393618_MetadataUsageId);
+		il2cpp_codegen_initialize_method (TrackableProperty_GetHashCode_m2498938767_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	int32_t V_0 = 0;
-	FieldWithTarget_t1786615420 * V_1 = NULL;
-	Enumerator_t3882167105  V_2;
+	FieldWithTarget_t3110532373 * V_1 = NULL;
+	Enumerator_t862405784  V_2;
 	memset(&V_2, 0, sizeof(V_2));
 	int32_t V_3 = 0;
-	Exception_t3153244288 * __last_unhandled_exception = 0;
+	Exception_t1336565028 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t3153244288 * __exception_local = 0;
+	Exception_t1336565028 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
 	{
 		V_0 = ((int32_t)17);
-		List_1_t2745949437 * L_0 = __this->get_m_Fields_1();
+		List_1_t904705598 * L_0 = __this->get_m_Fields_1();
 		NullCheck(L_0);
-		Enumerator_t3882167105  L_1 = List_1_GetEnumerator_m2874140041(L_0, /*hidden argument*/List_1_GetEnumerator_m2874140041_RuntimeMethod_var);
+		Enumerator_t862405784  L_1 = List_1_GetEnumerator_m4167409269(L_0, /*hidden argument*/List_1_GetEnumerator_m4167409269_RuntimeMethod_var);
 		V_2 = L_1;
 	}
 
@@ -2037,12 +2037,12 @@ IL_0012:
 
 IL_0017:
 		{
-			FieldWithTarget_t1786615420 * L_2 = Enumerator_get_Current_m1128306862((&V_2), /*hidden argument*/Enumerator_get_Current_m1128306862_RuntimeMethod_var);
+			FieldWithTarget_t3110532373 * L_2 = Enumerator_get_Current_m1132395548((&V_2), /*hidden argument*/Enumerator_get_Current_m1132395548_RuntimeMethod_var);
 			V_1 = L_2;
 			int32_t L_3 = V_0;
-			FieldWithTarget_t1786615420 * L_4 = V_1;
+			FieldWithTarget_t3110532373 * L_4 = V_1;
 			NullCheck(L_4);
-			String_t* L_5 = FieldWithTarget_get_paramName_m3562994617(L_4, /*hidden argument*/NULL);
+			String_t* L_5 = FieldWithTarget_get_paramName_m840328589(L_4, /*hidden argument*/NULL);
 			NullCheck(L_5);
 			int32_t L_6 = VirtFuncInvoker0< int32_t >::Invoke(2 /* System.Int32 System.Object::GetHashCode() */, L_5);
 			V_0 = ((int32_t)((int32_t)((int32_t)((int32_t)L_3*(int32_t)((int32_t)23)))+(int32_t)L_6));
@@ -2050,7 +2050,7 @@ IL_0017:
 
 IL_0030:
 		{
-			bool L_7 = Enumerator_MoveNext_m3575150980((&V_2), /*hidden argument*/Enumerator_MoveNext_m3575150980_RuntimeMethod_var);
+			bool L_7 = Enumerator_MoveNext_m3146334956((&V_2), /*hidden argument*/Enumerator_MoveNext_m3146334956_RuntimeMethod_var);
 			if (L_7)
 			{
 				goto IL_0017;
@@ -2064,19 +2064,19 @@ IL_003c:
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__last_unhandled_exception = (Exception_t3153244288 *)e.ex;
+		__last_unhandled_exception = (Exception_t1336565028 *)e.ex;
 		goto FINALLY_0041;
 	}
 
 FINALLY_0041:
 	{ // begin finally (depth: 1)
-		Enumerator_Dispose_m1756701881((&V_2), /*hidden argument*/Enumerator_Dispose_m1756701881_RuntimeMethod_var);
+		Enumerator_Dispose_m3563227121((&V_2), /*hidden argument*/Enumerator_Dispose_m3563227121_RuntimeMethod_var);
 		IL2CPP_END_FINALLY(65)
 	} // end finally (depth: 1)
 	IL2CPP_CLEANUP(65)
 	{
 		IL2CPP_JUMP_TBL(0x4F, IL_004f)
-		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t3153244288 *)
+		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t1336565028 *)
 	}
 
 IL_004f:
@@ -2093,15 +2093,15 @@ IL_0056:
 	}
 }
 // System.Void UnityEngine.Analytics.TrackableProperty/FieldWithTarget::.ctor()
-extern "C"  void FieldWithTarget__ctor_m203159722 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method)
+extern "C"  void FieldWithTarget__ctor_m3207116299 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method)
 {
 	{
-		Object__ctor_m3426658289(__this, /*hidden argument*/NULL);
+		Object__ctor_m3594683682(__this, /*hidden argument*/NULL);
 		return;
 	}
 }
 // System.String UnityEngine.Analytics.TrackableProperty/FieldWithTarget::get_paramName()
-extern "C"  String_t* FieldWithTarget_get_paramName_m3562994617 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method)
+extern "C"  String_t* FieldWithTarget_get_paramName_m840328589 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method)
 {
 	String_t* V_0 = NULL;
 	{
@@ -2117,7 +2117,7 @@ IL_000d:
 	}
 }
 // System.Void UnityEngine.Analytics.TrackableProperty/FieldWithTarget::set_paramName(System.String)
-extern "C"  void FieldWithTarget_set_paramName_m3114954911 (FieldWithTarget_t1786615420 * __this, String_t* ___value0, const RuntimeMethod* method)
+extern "C"  void FieldWithTarget_set_paramName_m1850377233 (FieldWithTarget_t3110532373 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
 	{
 		String_t* L_0 = ___value0;
@@ -2126,32 +2126,32 @@ extern "C"  void FieldWithTarget_set_paramName_m3114954911 (FieldWithTarget_t178
 	}
 }
 // UnityEngine.Object UnityEngine.Analytics.TrackableProperty/FieldWithTarget::get_target()
-extern "C"  Object_t2044854715 * FieldWithTarget_get_target_m2986283319 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method)
+extern "C"  Object_t3436183766 * FieldWithTarget_get_target_m3652497457 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method)
 {
-	Object_t2044854715 * V_0 = NULL;
+	Object_t3436183766 * V_0 = NULL;
 	{
-		Object_t2044854715 * L_0 = __this->get_m_Target_1();
+		Object_t3436183766 * L_0 = __this->get_m_Target_1();
 		V_0 = L_0;
 		goto IL_000d;
 	}
 
 IL_000d:
 	{
-		Object_t2044854715 * L_1 = V_0;
+		Object_t3436183766 * L_1 = V_0;
 		return L_1;
 	}
 }
 // System.Void UnityEngine.Analytics.TrackableProperty/FieldWithTarget::set_target(UnityEngine.Object)
-extern "C"  void FieldWithTarget_set_target_m742810036 (FieldWithTarget_t1786615420 * __this, Object_t2044854715 * ___value0, const RuntimeMethod* method)
+extern "C"  void FieldWithTarget_set_target_m739631281 (FieldWithTarget_t3110532373 * __this, Object_t3436183766 * ___value0, const RuntimeMethod* method)
 {
 	{
-		Object_t2044854715 * L_0 = ___value0;
+		Object_t3436183766 * L_0 = ___value0;
 		__this->set_m_Target_1(L_0);
 		return;
 	}
 }
 // System.String UnityEngine.Analytics.TrackableProperty/FieldWithTarget::get_fieldPath()
-extern "C"  String_t* FieldWithTarget_get_fieldPath_m933947681 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method)
+extern "C"  String_t* FieldWithTarget_get_fieldPath_m1643122653 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method)
 {
 	String_t* V_0 = NULL;
 	{
@@ -2167,7 +2167,7 @@ IL_000d:
 	}
 }
 // System.Void UnityEngine.Analytics.TrackableProperty/FieldWithTarget::set_fieldPath(System.String)
-extern "C"  void FieldWithTarget_set_fieldPath_m3582567777 (FieldWithTarget_t1786615420 * __this, String_t* ___value0, const RuntimeMethod* method)
+extern "C"  void FieldWithTarget_set_fieldPath_m4116353295 (FieldWithTarget_t3110532373 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
 	{
 		String_t* L_0 = ___value0;
@@ -2176,7 +2176,7 @@ extern "C"  void FieldWithTarget_set_fieldPath_m3582567777 (FieldWithTarget_t178
 	}
 }
 // System.String UnityEngine.Analytics.TrackableProperty/FieldWithTarget::get_typeString()
-extern "C"  String_t* FieldWithTarget_get_typeString_m509311984 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method)
+extern "C"  String_t* FieldWithTarget_get_typeString_m3454921984 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method)
 {
 	String_t* V_0 = NULL;
 	{
@@ -2192,7 +2192,7 @@ IL_000d:
 	}
 }
 // System.Void UnityEngine.Analytics.TrackableProperty/FieldWithTarget::set_typeString(System.String)
-extern "C"  void FieldWithTarget_set_typeString_m3166946672 (FieldWithTarget_t1786615420 * __this, String_t* ___value0, const RuntimeMethod* method)
+extern "C"  void FieldWithTarget_set_typeString_m710409760 (FieldWithTarget_t3110532373 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
 	{
 		String_t* L_0 = ___value0;
@@ -2201,7 +2201,7 @@ extern "C"  void FieldWithTarget_set_typeString_m3166946672 (FieldWithTarget_t17
 	}
 }
 // System.Boolean UnityEngine.Analytics.TrackableProperty/FieldWithTarget::get_doStatic()
-extern "C"  bool FieldWithTarget_get_doStatic_m1873497179 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method)
+extern "C"  bool FieldWithTarget_get_doStatic_m2497819018 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method)
 {
 	bool V_0 = false;
 	{
@@ -2217,7 +2217,7 @@ IL_000d:
 	}
 }
 // System.Void UnityEngine.Analytics.TrackableProperty/FieldWithTarget::set_doStatic(System.Boolean)
-extern "C"  void FieldWithTarget_set_doStatic_m4089170837 (FieldWithTarget_t1786615420 * __this, bool ___value0, const RuntimeMethod* method)
+extern "C"  void FieldWithTarget_set_doStatic_m718744574 (FieldWithTarget_t3110532373 * __this, bool ___value0, const RuntimeMethod* method)
 {
 	{
 		bool L_0 = ___value0;
@@ -2226,7 +2226,7 @@ extern "C"  void FieldWithTarget_set_doStatic_m4089170837 (FieldWithTarget_t1786
 	}
 }
 // System.String UnityEngine.Analytics.TrackableProperty/FieldWithTarget::get_staticString()
-extern "C"  String_t* FieldWithTarget_get_staticString_m2260052467 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method)
+extern "C"  String_t* FieldWithTarget_get_staticString_m1133681712 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method)
 {
 	String_t* V_0 = NULL;
 	{
@@ -2242,7 +2242,7 @@ IL_000d:
 	}
 }
 // System.Void UnityEngine.Analytics.TrackableProperty/FieldWithTarget::set_staticString(System.String)
-extern "C"  void FieldWithTarget_set_staticString_m3255698467 (FieldWithTarget_t1786615420 * __this, String_t* ___value0, const RuntimeMethod* method)
+extern "C"  void FieldWithTarget_set_staticString_m2598510267 (FieldWithTarget_t3110532373 * __this, String_t* ___value0, const RuntimeMethod* method)
 {
 	{
 		String_t* L_0 = ___value0;
@@ -2251,24 +2251,24 @@ extern "C"  void FieldWithTarget_set_staticString_m3255698467 (FieldWithTarget_t
 	}
 }
 // System.Object UnityEngine.Analytics.TrackableProperty/FieldWithTarget::GetValue()
-extern "C"  RuntimeObject * FieldWithTarget_GetValue_m395284854 (FieldWithTarget_t1786615420 * __this, const RuntimeMethod* method)
+extern "C"  RuntimeObject * FieldWithTarget_GetValue_m3438246431 (FieldWithTarget_t3110532373 * __this, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_method (FieldWithTarget_GetValue_m395284854_MetadataUsageId);
+		il2cpp_codegen_initialize_method (FieldWithTarget_GetValue_m3438246431_MetadataUsageId);
 		s_Il2CppMethodInitialized = true;
 	}
 	RuntimeObject * V_0 = NULL;
 	RuntimeObject * V_1 = NULL;
 	String_t* V_2 = NULL;
-	StringU5BU5D_t62953633* V_3 = NULL;
+	StringU5BU5D_t1613568946* V_3 = NULL;
 	int32_t V_4 = 0;
 	PropertyInfo_t * V_5 = NULL;
 	FieldInfo_t * V_6 = NULL;
-	Exception_t3153244288 * __last_unhandled_exception = 0;
+	Exception_t1336565028 * __last_unhandled_exception = 0;
 	NO_UNUSED_WARNING (__last_unhandled_exception);
-	Exception_t3153244288 * __exception_local = 0;
+	Exception_t1336565028 * __exception_local = 0;
 	NO_UNUSED_WARNING (__exception_local);
 	int32_t __leave_target = 0;
 	NO_UNUSED_WARNING (__leave_target);
@@ -2287,14 +2287,14 @@ extern "C"  RuntimeObject * FieldWithTarget_GetValue_m395284854 (FieldWithTarget
 
 IL_0019:
 	{
-		Object_t2044854715 * L_2 = __this->get_m_Target_1();
+		Object_t3436183766 * L_2 = __this->get_m_Target_1();
 		V_1 = L_2;
 		String_t* L_3 = __this->get_m_FieldPath_2();
-		CharU5BU5D_t3152716171* L_4 = ((CharU5BU5D_t3152716171*)SZArrayNew(CharU5BU5D_t3152716171_il2cpp_TypeInfo_var, (uint32_t)1));
+		CharU5BU5D_t757589385* L_4 = ((CharU5BU5D_t757589385*)SZArrayNew(CharU5BU5D_t757589385_il2cpp_TypeInfo_var, (uint32_t)1));
 		NullCheck(L_4);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(0), (Il2CppChar)((int32_t)46));
 		NullCheck(L_3);
-		StringU5BU5D_t62953633* L_5 = String_Split_m3391547448(L_3, L_4, /*hidden argument*/NULL);
+		StringU5BU5D_t1613568946* L_5 = String_Split_m3680386253(L_3, L_4, /*hidden argument*/NULL);
 		V_3 = L_5;
 		V_4 = 0;
 		goto IL_008b;
@@ -2302,7 +2302,7 @@ IL_0019:
 
 IL_0040:
 	{
-		StringU5BU5D_t62953633* L_6 = V_3;
+		StringU5BU5D_t1613568946* L_6 = V_3;
 		int32_t L_7 = V_4;
 		NullCheck(L_6);
 		int32_t L_8 = L_7;
@@ -2315,21 +2315,21 @@ IL_0046:
 	{ // begin try (depth: 1)
 		RuntimeObject * L_10 = V_1;
 		NullCheck(L_10);
-		Type_t * L_11 = Object_GetType_m889015516(L_10, /*hidden argument*/NULL);
+		Type_t * L_11 = Object_GetType_m278863354(L_10, /*hidden argument*/NULL);
 		String_t* L_12 = V_2;
 		NullCheck(L_11);
-		PropertyInfo_t * L_13 = Type_GetProperty_m1944809943(L_11, L_12, /*hidden argument*/NULL);
+		PropertyInfo_t * L_13 = Type_GetProperty_m1092033647(L_11, L_12, /*hidden argument*/NULL);
 		V_5 = L_13;
 		PropertyInfo_t * L_14 = V_5;
 		RuntimeObject * L_15 = V_1;
 		NullCheck(L_14);
-		RuntimeObject * L_16 = VirtFuncInvoker2< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_t3094973379* >::Invoke(22 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_14, L_15, (ObjectU5BU5D_t3094973379*)(ObjectU5BU5D_t3094973379*)NULL);
+		RuntimeObject * L_16 = VirtFuncInvoker2< RuntimeObject *, RuntimeObject *, ObjectU5BU5D_t898615829* >::Invoke(22 /* System.Object System.Reflection.PropertyInfo::GetValue(System.Object,System.Object[]) */, L_14, L_15, (ObjectU5BU5D_t898615829*)(ObjectU5BU5D_t898615829*)NULL);
 		V_1 = L_16;
 		goto IL_0084;
 	} // end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
-		__exception_local = (Exception_t3153244288 *)e.ex;
+		__exception_local = (Exception_t1336565028 *)e.ex;
 		if(il2cpp_codegen_class_is_assignable_from (RuntimeObject_il2cpp_TypeInfo_var, il2cpp_codegen_object_class(e.ex)))
 			goto CATCH_0065;
 		throw e;
@@ -2339,10 +2339,10 @@ CATCH_0065:
 	{ // begin catch(System.Object)
 		RuntimeObject * L_17 = V_1;
 		NullCheck(L_17);
-		Type_t * L_18 = Object_GetType_m889015516(L_17, /*hidden argument*/NULL);
+		Type_t * L_18 = Object_GetType_m278863354(L_17, /*hidden argument*/NULL);
 		String_t* L_19 = V_2;
 		NullCheck(L_18);
-		FieldInfo_t * L_20 = Type_GetField_m218274886(L_18, L_19, /*hidden argument*/NULL);
+		FieldInfo_t * L_20 = Type_GetField_m2924057402(L_18, L_19, /*hidden argument*/NULL);
 		V_6 = L_20;
 		FieldInfo_t * L_21 = V_6;
 		RuntimeObject * L_22 = V_1;
@@ -2361,7 +2361,7 @@ IL_0084:
 IL_008b:
 	{
 		int32_t L_25 = V_4;
-		StringU5BU5D_t62953633* L_26 = V_3;
+		StringU5BU5D_t1613568946* L_26 = V_3;
 		NullCheck(L_26);
 		if ((((int32_t)L_25) < ((int32_t)(((int32_t)((int32_t)(((RuntimeArray *)L_26)->max_length)))))))
 		{

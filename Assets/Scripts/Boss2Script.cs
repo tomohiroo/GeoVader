@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Boss2Script : MonoBehaviour {
 	public GameObject wAttack;
-	float hp = 78;
+	float hp = 75;
 	public GameObject sound;
 	public GameObject effect;
 	float rot;
@@ -40,7 +40,7 @@ public class Boss2Script : MonoBehaviour {
 			Destroy (this.gameObject);
 			GameObject soundClone = Instantiate (sound) as GameObject;
 			Destroy (soundClone, 1);
-			GameObject.Find ("GameManager").GetComponent<GameManagerScript>().score += 200;
+			GameObject.Find ("GameManager").GetComponent<GameManagerScript>().score += 250;
 			Instantiate (effect, transform.position, Quaternion.identity);
 		}
 	}

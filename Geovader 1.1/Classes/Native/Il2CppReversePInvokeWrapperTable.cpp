@@ -17,18 +17,18 @@
 
 
 
-extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_DeflateStream_UnmanagedRead_m483620242(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
-extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_DeflateStream_UnmanagedWrite_m2493124618(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Platform_UnityAdsReady_m389911867(char* ___placementId0);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Platform_UnityAdsDidError_m4187024597(int64_t ___rawError0, char* ___message1);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Platform_UnityAdsDidStart_m3444372674(char* ___placementId0);
-extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Platform_UnityAdsDidFinish_m3448494138(char* ___placementId0, int64_t ___rawShowResult1);
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_DeflateStream_UnmanagedRead_m3445487796(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" int32_t DEFAULT_CALL ReversePInvokeWrapper_DeflateStream_UnmanagedWrite_m1724300036(intptr_t ___buffer0, int32_t ___length1, intptr_t ___data2);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Platform_UnityAdsReady_m2633454835(char* ___placementId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Platform_UnityAdsDidError_m4019211319(int64_t ___rawError0, char* ___message1);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Platform_UnityAdsDidStart_m1478835083(char* ___placementId0);
+extern "C" void DEFAULT_CALL ReversePInvokeWrapper_Platform_UnityAdsDidFinish_m3240923765(char* ___placementId0, int64_t ___rawShowResult1);
 extern const Il2CppMethodPointer g_ReversePInvokeWrapperPointers[6] = 
 {
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStream_UnmanagedRead_m483620242),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStream_UnmanagedWrite_m2493124618),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Platform_UnityAdsReady_m389911867),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Platform_UnityAdsDidError_m4187024597),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Platform_UnityAdsDidStart_m3444372674),
-	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Platform_UnityAdsDidFinish_m3448494138),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStream_UnmanagedRead_m3445487796),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_DeflateStream_UnmanagedWrite_m1724300036),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Platform_UnityAdsReady_m2633454835),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Platform_UnityAdsDidError_m4019211319),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Platform_UnityAdsDidStart_m1478835083),
+	reinterpret_cast<Il2CppMethodPointer>(ReversePInvokeWrapper_Platform_UnityAdsDidFinish_m3240923765),
 };

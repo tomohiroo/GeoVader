@@ -2,16 +2,16 @@
 All Assemblies
 ---------------------------------------------------
 Summary:
-  Total Type Removals = 2156
-    Nested = 157
+  Total Type Removals = 2162
+    Nested = 163
     Interfaces = 143
     Abstract Classes = 151
     Generic Types = 79
     Generic Interfaces = 6
     Generic Abstract Classes = 3
     Attributes = 175
-  Total Field Removals = 768
-  Total Method Removals = 12192
+  Total Field Removals = 770
+  Total Method Removals = 12233
 ---------------------------------------------------
 ---------------------------------------------------
 Assembly: Mono.Security
@@ -9621,6 +9621,81 @@ Summary:
     UnityEngine.VRModule
     UnityEngine.WindModule
 ---------------------------------------------------
+---------------------------------------------------
+Assembly: UnityEngine.Advertisements
+---------------------------------------------------
+Summary:
+  Total Type Removals = 6
+    Nested = 6
+    Interfaces = 0
+    Abstract Classes = 0
+    Generic Types = 0
+    Generic Interfaces = 0
+    Generic Abstract Classes = 0
+    Attributes = 0
+  Total Field Removals = 2
+  Total Method Removals = 41
+  References Removed = 0
+---------------------------------------------------
+    UnityEngine.Advertisements.Android.Platform
+        OnError
+        OnReady
+        add_OnError(System.EventHandler`1<UnityEngine.Advertisements.ErrorEventArgs>)
+        add_OnReady(System.EventHandler`1<UnityEngine.Advertisements.ReadyEventArgs>)
+        get_isInitialized()
+        get_isSupported()
+        onUnityAdsError(UnityEngine.AndroidJavaObject,System.String)
+        onUnityAdsFinish(System.String,UnityEngine.AndroidJavaObject)
+        onUnityAdsReady(System.String)
+        onUnityAdsStart(System.String)
+        remove_OnError(System.EventHandler`1<UnityEngine.Advertisements.ErrorEventArgs>)
+        remove_OnReady(System.EventHandler`1<UnityEngine.Advertisements.ReadyEventArgs>)
+    UnityEngine.Advertisements.Android.Platform/<onUnityAdsError>c__AnonStorey4
+    UnityEngine.Advertisements.Android.Platform/<onUnityAdsError>c__AnonStorey5
+    UnityEngine.Advertisements.Android.Platform/<onUnityAdsFinish>c__AnonStorey2
+    UnityEngine.Advertisements.Android.Platform/<onUnityAdsFinish>c__AnonStorey3
+    UnityEngine.Advertisements.Android.Platform/<onUnityAdsReady>c__AnonStorey0
+    UnityEngine.Advertisements.Android.Platform/<onUnityAdsStart>c__AnonStorey1
+    UnityEngine.Advertisements.Editor.Platform
+        add_OnError(System.EventHandler`1<UnityEngine.Advertisements.ErrorEventArgs>)
+        add_OnReady(System.EventHandler`1<UnityEngine.Advertisements.ReadyEventArgs>)
+        get_isSupported()
+        remove_OnError(System.EventHandler`1<UnityEngine.Advertisements.ErrorEventArgs>)
+        remove_OnReady(System.EventHandler`1<UnityEngine.Advertisements.ReadyEventArgs>)
+    UnityEngine.Advertisements.ErrorEventArgs
+        get_error()
+        get_message()
+    UnityEngine.Advertisements.iOS.Platform
+        add_OnError(System.EventHandler`1<UnityEngine.Advertisements.ErrorEventArgs>)
+        add_OnReady(System.EventHandler`1<UnityEngine.Advertisements.ReadyEventArgs>)
+        get_isInitialized()
+        get_isSupported()
+        remove_OnError(System.EventHandler`1<UnityEngine.Advertisements.ErrorEventArgs>)
+        remove_OnReady(System.EventHandler`1<UnityEngine.Advertisements.ReadyEventArgs>)
+        UnityAdsEngineIsInitialized()
+        UnityAdsEngineIsSupported()
+    UnityEngine.Advertisements.IPlatform
+        add_OnError(System.EventHandler`1<UnityEngine.Advertisements.ErrorEventArgs>)
+        add_OnReady(System.EventHandler`1<UnityEngine.Advertisements.ReadyEventArgs>)
+        get_isInitialized()
+        get_isSupported()
+        remove_OnError(System.EventHandler`1<UnityEngine.Advertisements.ErrorEventArgs>)
+        remove_OnReady(System.EventHandler`1<UnityEngine.Advertisements.ReadyEventArgs>)
+    UnityEngine.Advertisements.MetaData
+        Get(System.String)
+    UnityEngine.Advertisements.ReadyEventArgs
+        get_placementId()
+    UnityEngine.Advertisements.ShowOptions
+        set_gamerSid(System.String)
+    UnityEngine.Advertisements.StartEventArgs
+        get_placementId()
+    UnityEngine.Advertisements.UnsupportedPlatform
+        add_OnError(System.EventHandler`1<UnityEngine.Advertisements.ErrorEventArgs>)
+        add_OnReady(System.EventHandler`1<UnityEngine.Advertisements.ReadyEventArgs>)
+        get_isInitialized()
+        get_isSupported()
+        remove_OnError(System.EventHandler`1<UnityEngine.Advertisements.ErrorEventArgs>)
+        remove_OnReady(System.EventHandler`1<UnityEngine.Advertisements.ReadyEventArgs>)
 ---------------------------------------------------
 Assembly: UnityEngine.AnimationModule
 ---------------------------------------------------

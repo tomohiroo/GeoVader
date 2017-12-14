@@ -17,17 +17,17 @@ struct String_t;
 // System.Type
 struct Type_t;
 // System.Exception
-struct Exception_t3153244288;
+struct Exception_t1336565028;
 // System.Text.StringBuilder
-struct StringBuilder_t2052431508;
+struct StringBuilder_t1735767227;
 // System.MulticastDelegate
-struct MulticastDelegate_t3891838365;
+struct MulticastDelegate_t1059367039;
 // System.Reflection.MethodBase
-struct MethodBase_t3538747824;
+struct MethodBase_t1116419845;
 // System.Reflection.Assembly
-struct Assembly_t2560562706;
+struct Assembly_t43927864;
 // System.Void
-struct Void_t3007105787;
+struct Void_t3394263177;
 
 
 
@@ -46,8 +46,8 @@ struct Void_t3007105787;
 #pragma clang diagnostic pop
 #endif
 #endif // RUNTIMEOBJECT_H
-#ifndef VALUETYPE_T2095814083_H
-#define VALUETYPE_T2095814083_H
+#ifndef VALUETYPE_T2320648697_H
+#define VALUETYPE_T2320648697_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -55,7 +55,7 @@ struct Void_t3007105787;
 #endif
 
 // System.ValueType
-struct  ValueType_t2095814083  : public RuntimeObject
+struct  ValueType_t2320648697  : public RuntimeObject
 {
 public:
 
@@ -66,14 +66,14 @@ public:
 #pragma clang diagnostic pop
 #endif
 // Native definition for P/Invoke marshalling of System.ValueType
-struct ValueType_t2095814083_marshaled_pinvoke
+struct ValueType_t2320648697_marshaled_pinvoke
 {
 };
 // Native definition for COM marshalling of System.ValueType
-struct ValueType_t2095814083_marshaled_com
+struct ValueType_t2320648697_marshaled_com
 {
 };
-#endif // VALUETYPE_T2095814083_H
+#endif // VALUETYPE_T2320648697_H
 #ifndef INTPTR_T_H
 #define INTPTR_T_H
 #ifdef __clang__
@@ -119,8 +119,8 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // INTPTR_T_H
-#ifndef RUNTIMETYPEHANDLE_T649739477_H
-#define RUNTIMETYPEHANDLE_T649739477_H
+#ifndef RUNTIMETYPEHANDLE_T678907552_H
+#define RUNTIMETYPEHANDLE_T678907552_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -128,14 +128,14 @@ public:
 #endif
 
 // System.RuntimeTypeHandle
-struct  RuntimeTypeHandle_t649739477 
+struct  RuntimeTypeHandle_t678907552 
 {
 public:
 	// System.IntPtr System.RuntimeTypeHandle::value
 	intptr_t ___value_0;
 
 public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeTypeHandle_t649739477, ___value_0)); }
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeTypeHandle_t678907552, ___value_0)); }
 	inline intptr_t get_value_0() const { return ___value_0; }
 	inline intptr_t* get_address_of_value_0() { return &___value_0; }
 	inline void set_value_0(intptr_t value)
@@ -147,9 +147,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // RUNTIMETYPEHANDLE_T649739477_H
-#ifndef RUNTIMEFIELDHANDLE_T2040066743_H
-#define RUNTIMEFIELDHANDLE_T2040066743_H
+#endif // RUNTIMETYPEHANDLE_T678907552_H
+#ifndef RUNTIMEFIELDHANDLE_T4174535144_H
+#define RUNTIMEFIELDHANDLE_T4174535144_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -157,14 +157,14 @@ public:
 #endif
 
 // System.RuntimeFieldHandle
-struct  RuntimeFieldHandle_t2040066743 
+struct  RuntimeFieldHandle_t4174535144 
 {
 public:
 	// System.IntPtr System.RuntimeFieldHandle::value
 	intptr_t ___value_0;
 
 public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeFieldHandle_t2040066743, ___value_0)); }
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeFieldHandle_t4174535144, ___value_0)); }
 	inline intptr_t get_value_0() const { return ___value_0; }
 	inline intptr_t* get_address_of_value_0() { return &___value_0; }
 	inline void set_value_0(intptr_t value)
@@ -176,9 +176,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // RUNTIMEFIELDHANDLE_T2040066743_H
-#ifndef RUNTIMEARGUMENTHANDLE_T124129105_H
-#define RUNTIMEARGUMENTHANDLE_T124129105_H
+#endif // RUNTIMEFIELDHANDLE_T4174535144_H
+#ifndef RUNTIMEARGUMENTHANDLE_T1191538184_H
+#define RUNTIMEARGUMENTHANDLE_T1191538184_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -186,14 +186,14 @@ public:
 #endif
 
 // System.RuntimeArgumentHandle
-struct  RuntimeArgumentHandle_t124129105 
+struct  RuntimeArgumentHandle_t1191538184 
 {
 public:
 	// System.IntPtr System.RuntimeArgumentHandle::args
 	intptr_t ___args_0;
 
 public:
-	inline static int32_t get_offset_of_args_0() { return static_cast<int32_t>(offsetof(RuntimeArgumentHandle_t124129105, ___args_0)); }
+	inline static int32_t get_offset_of_args_0() { return static_cast<int32_t>(offsetof(RuntimeArgumentHandle_t1191538184, ___args_0)); }
 	inline intptr_t get_args_0() const { return ___args_0; }
 	inline intptr_t* get_address_of_args_0() { return &___args_0; }
 	inline void set_args_0(intptr_t value)
@@ -205,9 +205,9 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // RUNTIMEARGUMENTHANDLE_T124129105_H
-#ifndef RUNTIMEMETHODHANDLE_T461185243_H
-#define RUNTIMEMETHODHANDLE_T461185243_H
+#endif // RUNTIMEARGUMENTHANDLE_T1191538184_H
+#ifndef RUNTIMEMETHODHANDLE_T2082108057_H
+#define RUNTIMEMETHODHANDLE_T2082108057_H
 #ifdef __clang__
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
@@ -215,14 +215,14 @@ public:
 #endif
 
 // System.RuntimeMethodHandle
-struct  RuntimeMethodHandle_t461185243 
+struct  RuntimeMethodHandle_t2082108057 
 {
 public:
 	// System.IntPtr System.RuntimeMethodHandle::value
 	intptr_t ___value_0;
 
 public:
-	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeMethodHandle_t461185243, ___value_0)); }
+	inline static int32_t get_offset_of_value_0() { return static_cast<int32_t>(offsetof(RuntimeMethodHandle_t2082108057, ___value_0)); }
 	inline intptr_t get_value_0() const { return ___value_0; }
 	inline intptr_t* get_address_of_value_0() { return &___value_0; }
 	inline void set_value_0(intptr_t value)
@@ -234,19 +234,19 @@ public:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-#endif // RUNTIMEMETHODHANDLE_T461185243_H
+#endif // RUNTIMEMETHODHANDLE_T2082108057_H
 
 
 
 #pragma once
 typedef String_t Il2CppCodeGenString;
 typedef Type_t Il2CppCodeGenType;
-typedef Exception_t3153244288 Il2CppCodeGenException;
-typedef RuntimeTypeHandle_t649739477 Il2CppCodeGenRuntimeTypeHandle;
-typedef RuntimeFieldHandle_t2040066743 Il2CppCodeGenRuntimeFieldHandle;
-typedef RuntimeArgumentHandle_t124129105 Il2CppCodeGenRuntimeArgumentHandle;
-typedef RuntimeMethodHandle_t461185243 Il2CppCodeGenRuntimeMethodHandle;
-typedef StringBuilder_t2052431508 Il2CppCodeGenStringBuilder;
-typedef MulticastDelegate_t3891838365 Il2CppCodeGenMulticastDelegate;
-typedef MethodBase_t3538747824 Il2CppCodeGenMethodBase;
-typedef Assembly_t2560562706 Il2CppCodeGenAssembly;
+typedef Exception_t1336565028 Il2CppCodeGenException;
+typedef RuntimeTypeHandle_t678907552 Il2CppCodeGenRuntimeTypeHandle;
+typedef RuntimeFieldHandle_t4174535144 Il2CppCodeGenRuntimeFieldHandle;
+typedef RuntimeArgumentHandle_t1191538184 Il2CppCodeGenRuntimeArgumentHandle;
+typedef RuntimeMethodHandle_t2082108057 Il2CppCodeGenRuntimeMethodHandle;
+typedef StringBuilder_t1735767227 Il2CppCodeGenStringBuilder;
+typedef MulticastDelegate_t1059367039 Il2CppCodeGenMulticastDelegate;
+typedef MethodBase_t1116419845 Il2CppCodeGenMethodBase;
+typedef Assembly_t43927864 Il2CppCodeGenAssembly;

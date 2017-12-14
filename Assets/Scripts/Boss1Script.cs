@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Boss1Script : MonoBehaviour {
-	float hp = 85;
+	float hp = 80;
 	float attackTimer;
 	public GameObject wAttack;
 	public GameObject bossSound;
@@ -59,7 +59,7 @@ public class Boss1Script : MonoBehaviour {
 			Destroy (this.gameObject);
 			GameObject soundClone = Instantiate (bossSound) as GameObject;
 			Destroy (soundClone, 1);
-			gameManagerScript.score += 200;
+			gameManagerScript.score += 250;
 			Instantiate (effect, transform.position, Quaternion.identity);
 		}
 	}
