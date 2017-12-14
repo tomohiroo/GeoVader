@@ -330,6 +330,7 @@ public class GameManagerScript : MonoBehaviour
 			originalNumberText1.text = originalNumberText.text;
 			image.SetActive (true);
 			lastScoreText.text = score.ToString ();
+			bombButton.GetComponent<Image> ().color = new Color (0.78431373f, 0.90196078f, 1, 0.62745098f);
 			button.text = "RESTART";
 			scoreLabel.text = null;
 			nowScoreText.text = null;
@@ -510,6 +511,9 @@ public class GameManagerScript : MonoBehaviour
 		originalNumberText1.text = null;
 		image.SetActive (false);
 		lastScoreText.text = null;
+		if (bombed) {
+			bombButton.GetComponent<Image> ().color = new Color (0.4f, 0.4f, 0.4f, 0.6f);
+		}
 		button.text = "Bomb";
 		scoreLabel.text = "SCORE";
 		nowScoreText.text = score.ToString();
@@ -528,6 +532,7 @@ public class GameManagerScript : MonoBehaviour
 			if (bombed==false) {
 				Instantiate (bomb, player.transform.position, Quaternion.identity);
 				bombed = true;
+				//ボタンの色を暗くする
 				bombButton.GetComponent<Image> ().color = new Color (0.4f, 0.4f, 0.4f, 0.6f);
 			}
 		}else if(Advertisement.IsReady() && Random.Range(0,4)==0){
