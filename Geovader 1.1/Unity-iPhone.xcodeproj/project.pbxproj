@@ -42,7 +42,7 @@
 		4F254CE59646A41F1890DCB2 /* Bulk_Generics_6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 624C4C968478CE3DFCF060F6 /* Bulk_Generics_6.cpp */; };
 		5623C57617FDCB0800090B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		5623C57717FDCB0800090B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
-		5623C57D17FDCB0900090B9E = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
+		5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
 		5623C57F17FDCB0900090B9E /* Unity_iPhone_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */; };
 		5682F4B20F3B34FF007A219C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5682F4B10F3B34FF007A219C /* MediaPlayer.framework */; };
 		5692F3DD0FA9D8E500EBA2F1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5692F3DC0FA9D8E500EBA2F1 /* CoreLocation.framework */; };
@@ -135,8 +135,6 @@
 		A9304085A04E814E8A053B97 /* Bulk_UnityEngine.Analytics_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D89D4E6BAD8971CABFBFF928 /* Bulk_UnityEngine.Analytics_0.cpp */; };
 		AA31BF971B55660D0013FB1B /* Data in Resources */ = {isa = PBXBuildFile; fileRef = AA31BF961B55660D0013FB1B /* Data */; };
 		AA5D99871AFAD3C800B27605 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5D99861AFAD3C800B27605 /* CoreText.framework */; };
-		AA6C5DF91A13842A0030E49A = {isa = PBXBuildFile; fileRef = AA6C5DF71A13842A0030E49A /* LaunchScreenImage-Landscape.png */; };
-		AA6C5DFA1A13842A0030E49A = {isa = PBXBuildFile; fileRef = AA6C5DF81A13842A0030E49A /* LaunchScreenImage-Portrait.png */; };
 		AAC3E38D1A68945900F6174A /* RegisterFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */; };
 		AAFE69D219F187C200638316 /* UnityViewControllerListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = AAFE69D119F187C200638316 /* UnityViewControllerListener.mm */; };
 		ABE842B082860CAE12EFAC12 /* Il2CppCompilerCalculateTypeValues_11Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1D0545009E9897CCBF153E7F /* Il2CppCompilerCalculateTypeValues_11Table.cpp */; };
@@ -222,7 +220,7 @@
 		1D0545009E9897CCBF153E7F /* Il2CppCompilerCalculateTypeValues_11Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_11Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_11Table.cpp; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D55465A9A0D245BE393CD23 /* Bulk_UnityEngine.WebModule_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.WebModule_0.cpp; path = Classes/Native/Bulk_UnityEngine.WebModule_0.cpp; sourceTree = SOURCE_ROOT; };
-		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity-Target-New.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Unity-Target-New.app"; path = GeoVader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E1541AC9E7362FDB980E9C1 /* Il2CppAttributes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppAttributes.cpp; path = Classes/Native/Il2CppAttributes.cpp; sourceTree = SOURCE_ROOT; };
 		20084D90A0B2C3068C3048A4 /* Il2CppCompilerCalculateTypeValues_1Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_1Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_1Table.cpp; sourceTree = SOURCE_ROOT; };
 		21E34F72A41F1920A381ED91 /* Bulk_Mono.Security_1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_Mono.Security_1.cpp; path = Classes/Native/Bulk_Mono.Security_1.cpp; sourceTree = SOURCE_ROOT; };
@@ -243,7 +241,7 @@
 		4D494A648D338C4213592684 /* Il2CppCompilerCalculateTypeValues_6Table.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppCompilerCalculateTypeValues_6Table.cpp; path = Classes/Native/Il2CppCompilerCalculateTypeValues_6Table.cpp; sourceTree = SOURCE_ROOT; };
 		51394E3EA77E30B0AC60B697 /* Il2CppGenericComDefinitions0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Il2CppGenericComDefinitions0.cpp; path = Classes/Native/Il2CppGenericComDefinitions0.cpp; sourceTree = SOURCE_ROOT; };
 		52A44934A430428E2565557C /* Bulk_UnityEngine.UIModule_0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bulk_UnityEngine.UIModule_0.cpp; path = Classes/Native/Bulk_UnityEngine.UIModule_0.cpp; sourceTree = SOURCE_ROOT; };
-		5623C57317FDCB0800090B9E /* Unity-iPhone Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unity-iPhone Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5623C57317FDCB0800090B9E /* Unity-iPhone Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Unity-iPhone Tests.xctest"; path = GeoVader.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5623C57A17FDCB0900090B9E /* Unity-iPhone Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unity-iPhone Tests-Info.plist"; sourceTree = "<group>"; };
 		5623C57C17FDCB0900090B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5623C57E17FDCB0900090B9E /* Unity_iPhone_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unity_iPhone_Tests.m; sourceTree = "<group>"; };
@@ -384,8 +382,6 @@
 		AA31BF961B55660D0013FB1B /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
 		AA404271B68356EF5BA4E6E3 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		AA5D99861AFAD3C800B27605 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		AA6C5DF71A13842A0030E49A /* LaunchScreenImage-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Landscape.png"; sourceTree = "<group>"; };
-		AA6C5DF81A13842A0030E49A /* LaunchScreenImage-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Portrait.png"; sourceTree = "<group>"; };
 		AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegisterFeatures.cpp; sourceTree = "<group>"; };
 		AAC3E38C1A68945900F6174A /* RegisterFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterFeatures.h; sourceTree = "<group>"; };
 		AAFE69D019F187C200638316 /* UnityViewControllerListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityViewControllerListener.h; sourceTree = "<group>"; };
@@ -867,6 +863,7 @@
 			attributes = {
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 6HRC27NK8L;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.GameControllers.appletvos = {
@@ -875,6 +872,7 @@
 						};
 					};
 					5623C57217FDCB0800090B9E = {
+						DevelopmentTeam = 6HRC27NK8L;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1D6058900D05DD3D006BFB54;
 					};
@@ -920,7 +918,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5623C57D17FDCB0900090B9E,
+				5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1129,7 +1127,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6HRC27NK8L;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1174,6 +1172,7 @@
 					CoreMotion,
 					"-weak-lSystem",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TomohiroUeda.GeoVader;
 				PRODUCT_NAME = GeoVader;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1196,7 +1195,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6HRC27NK8L;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1238,6 +1237,7 @@
 					CoreMotion,
 					"-weak-lSystem",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TomohiroUeda.GeoVader;
 				PRODUCT_NAME = GeoVader;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1267,7 +1267,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6HRC27NK8L;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -1314,7 +1314,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6HRC27NK8L;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -1380,7 +1380,7 @@
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6HRC27NK8L;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1422,6 +1422,7 @@
 					CoreMotion,
 					"-weak-lSystem",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TomohiroUeda.GeoVader;
 				PRODUCT_NAME = GeoVader;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1451,7 +1452,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6HRC27NK8L;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
@@ -1510,7 +1511,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6HRC27NK8L;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1552,6 +1553,7 @@
 					CoreMotion,
 					"-weak-lSystem",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TomohiroUeda.GeoVader;
 				PRODUCT_NAME = GeoVader;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1581,7 +1583,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6HRC27NK8L;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
