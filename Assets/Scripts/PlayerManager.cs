@@ -194,6 +194,7 @@ public class PlayerManager : MonoBehaviour {
 		isPlaying = false;
 		Instantiate (bomb);
 	}
+		
 
 	void OnTriggerEnter(Collider col){
 		if (col.gameObject.name == "GetLaser(Clone)") {
