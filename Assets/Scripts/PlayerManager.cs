@@ -39,6 +39,7 @@ public class PlayerManager : MonoBehaviour {
 	public int eraserCount;
 	public GameObject backShot;
 	public int backShotCount;
+	float backTimer;
 
 	void Start () {
 		speed = (float)Screen.width / (float)Screen.height * 20.0f;	
@@ -143,6 +144,11 @@ public class PlayerManager : MonoBehaviour {
 				Instantiate (eraser, this.transform.position, Quaternion.identity);
 				yield return new WaitForSeconds (0.25f);
 			}
+
+		}
+		backTimer += Time.deltaTime;
+		if (backTimer > 1) {
+			backTimer = 0;
 			for(int i=0; i < backShotCount; i++){
 				Instantiate (backShot, this.transform.position, Quaternion.identity);
 				yield return new WaitForSeconds (0.25f);
@@ -236,7 +242,7 @@ public class PlayerManager : MonoBehaviour {
 
 
 		if (col.gameObject.name == "GetEraser(Clone)") {
-			if (gameManagerScript.timer > 150) {
+			if (gameManagerScript.timer > 140) {
 				Destroy (col.gameObject);
 				gameManagerScript.textTimer = 0;
 				GameObject Is = Instantiate (itemSound) as GameObject;
