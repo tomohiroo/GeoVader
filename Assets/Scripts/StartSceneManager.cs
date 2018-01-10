@@ -24,6 +24,7 @@ public class StartSceneManager : MonoBehaviour {
 //		-------------------------yuki----------------------------
 		dataManager.GetHighScoreData();
 //		-------------------------yuki----------------------------
+
 		}
 
 	void Update(){
